@@ -1,0 +1,44 @@
+README for Transmission
+=======================
+
+Transmission is a fast, easy, and free BitTorrent client.
+
+It runs on Mac OS X (Cocoa interface) and
+Linux/NetBSD/FreeBSD/OpenBSD (GTK+ interface).
+
+Visit http://www.transmissionbt.com/ for more information.
+
+
+Building Transmission
+=====================
+
+Transmission has an Xcode project file (Transmission.xcodeproj)
+for building in Xcode.
+
+For a more detailed description, and dependancies, visit:
+http://trac.transmissionbt.com/wiki/
+
+Building a Transmission release from the command line:
+
+    $ tar xvfj transmission-1.40.tar.bz2
+    $ cd transmission-1.40
+    $ ./configure -q && make -s
+    $ su (if necessary for the next line)
+    $ make install
+
+Building Transmission from SVN (First Time):
+
+    $ svn co svn://svn.m0k.org/Transmission/trunk Transmission
+    $ cd Transmission
+    $ ./autogen.sh && make -s
+    $ su (if necessary for the next line)
+    $ make install
+
+Building Transmission from SVN (Updating):
+
+    $ cd Transmission
+    $ make clean
+    $ svn up
+    $ make -s
+    $ su (if necessary for the next line)
+    $ make install

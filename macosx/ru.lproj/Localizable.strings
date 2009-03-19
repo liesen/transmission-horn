@@ -1,0 +1,1027 @@
+﻿/* Inspector -> Activity tab -> progress */
+"%.2f%% (%.2f%% selected)" = "%1$.2f%% (%2$.2f%% выбранного)";
+
+/* Prefs -> blocklist -> message */
+"%@ IP address rules in list" = "%@ IP адресов в списке";
+
+/* Inspector -> Files tab -> file status string
+   Blocklist -> message
+   Torrent -> progress string */
+
+
+"%@ of %@" = "%1$@ из %2$@";
+
+/* Torrent -> progress string */
+"%@ of %@ selected" = "%1$@ из %2$@ выбранного";
+
+/* Torrent -> eta string */
+"%@ remaining" = "%@ осталось";
+
+/* Add torrent -> info
+   Torrent -> progress string */
+
+"%@ selected" = "%@ выбрано";
+
+/* stats total
+   Inspector -> selected torrents */
+
+"%@ total" = "%@ всего";
+
+/* Inspector -> Activity tab -> have */
+"%@ verified" = "%@ проверено";
+
+/* Create torrent -> info */
+"%@, %@ each" = "%1$@, %2$@ каждая";
+
+/* Inspector -> Peers tab -> peers */
+"%d cache" = "%d в кеше";
+
+/* Inspector -> Peers tab -> peers */
+"%d Connected" = "%d подключено";
+
+/* Dock item - Downloading */
+"%d Downloading" = "%d скачивается";
+
+/* Inspector -> selected torrents
+   Create torrent -> info
+   Add torrent -> info
+   Drag overlay -> torrents */
+
+
+
+"%d files" = "%d файлов";
+
+/* Inspector -> Peers tab -> peers */
+"%d incoming" = "%d входящих";
+
+/* Action menu -> upload/download limit */
+"%d KB/s" = "%d КБ/s";
+
+/* Status bar transfer count */
+"%d of %@" = "%1$d из %2$@";
+
+/* Inspector -> Peers tab -> peers */
+"%d PEX" = "%d PEX";
+
+/* Create torrent -> info */
+"%d pieces" = "%d частей";
+
+/* Dock item - Seeding */
+"%d Seeding" = "%d раздается";
+
+/* Drag overlay -> torrents */
+"%d Torrent Files" = "%d торрент-файлов";
+
+/* Inspector -> selected torrents */
+"%d Torrents Selected" = "%d торрентов выбрано";
+
+/* Inspector -> Peers tab -> peers */
+"%d tracker" = "%d от трекера";
+
+/* Torrent table -> group row -> tooltip
+   Filter Bar Button -> tool tip
+   Status bar transfer count */
+
+
+"%d transfers" = "%d раздач";
+
+/* Torrent -> status string */
+"%d web seeds" = "%d сайтов раздачи";
+
+/* stats -> bytes
+   Inspector -> selected torrents */
+
+"%llu bytes" = "%llu байтов ";
+
+/* stats window -> times opened */
+"%llu times" = "%llu раз";
+
+/* time string */
+"%u days" = "%u дн";
+
+/* time string */
+"%u hr" = "%u ч";
+
+/* time string */
+"%u min" = "%u мин";
+
+/* time string */
+"%u sec" = "%u с";
+
+/* time string */
+"1 day" = "1 день";
+
+/* Inspector -> selected torrents
+   Create torrent -> info
+   Add torrent -> info
+   Drag overlay -> torrents */
+
+
+
+"1 file" = "1 файл";
+
+/* Create torrent -> info */
+"1 piece" = "1 часть";
+
+/* stats window -> times opened */
+"1 time" = "1 раз";
+
+/* Torrent table -> group row -> tooltip
+   Filter Button -> tool tip
+   Status bar transfer count */
+
+
+"1 transfer" = "1 раздача";
+
+/* Move folder cannot be used alert -> message */
+"\"%@\" cannot be used. The file will remain in its current location." = "Папка «%@» не может быть использована. Файл останется в текущем местоположении.";
+
+/* Folder cannot be used alert -> message */
+"\"%@\" cannot be used. The transfer will be paused." = "Папка «%@» не может быть использована. Раздача будет приостановлена.";
+
+/* Open invalid alert -> title */
+"\"%@\" is not a valid torrent file." = "\"%@\" не является торрент-файлом.";
+
+/* Prefs -> blocklist -> message */
+"A blocklist must first be downloaded" = "Необходимо скачать черный список";
+
+/* Create torrent -> file already exists warning -> warning */
+"A file with the name \"%@\" already exists in the directory \"%@\". Choose a new name or directory to create the torrent file." = "Файл с именем «%1$@» уже есть в папке «%2$@». Выберите новое имя или местоположение чтобы создать торрент-файл.";
+
+/* Move inside itself alert -> title */
+"A folder cannot be moved to inside itself." = "Папка не может быть перемещена внутрь себя.";
+
+/* Create torrent -> zero size -> warning */
+"A torrent file cannot be created for files with no size." = "Торрент-файл не может быть создан для файлов нулевого размера.";
+
+/* Create torrent -> file already exists warning -> title */
+"A torrent file with this name and directory cannot be created." = "Торрент-файл с этим именем не может быть создан в этой папке.";
+
+/* Open duplicate alert -> title */
+"A transfer of \"%@\" already exists." = "Раздача «%@» уже существует.";
+
+/* Inspector -> title */
+"Activity" = "Активность";
+
+/* Add torrent -> same name -> button */
+"Add" = "Добавить";
+
+/* Groups -> Button */
+"All Groups" = "Все группы";
+
+/* Torrent disk space alert -> button */
+"Always Download" = "Всегда скачивать";
+
+/* All toolbar item -> label */
+"Apply All" = "Применить все";
+
+/* Selected toolbar item -> label */
+"Apply Selected" = "Применить выбранные";
+
+/* Confirm Quit panel -> title */
+"Are you sure you want to quit?" = "Вы действительно хотите завершить программу?";
+
+/* Remove built-in tracker alert -> title */
+"Are you sure you want to remove %d built-in trackers?" = "Вы действительно хотите удалить %d предустановленных трекеров?";
+
+/* Removal confirm panel -> title */
+"Are you sure you want to remove %d transfers from the transfer list and trash both the data and torrent files?" = "Вы действительно хотите удалить %d раздач из списка и переместить торрент-файлы и данные в Корзину?";
+
+/* Removal confirm panel -> title */
+"Are you sure you want to remove %d transfers from the transfer list and trash the data file?" = "Вы действительно хотите удалить %d раздач из списка и переместить данные в Корзину?";
+
+/* Removal confirm panel -> title */
+"Are you sure you want to remove %d transfers from the transfer list and trash the torrent file?" = "Вы действительно хотите удалить %d раздач из списка и переместить торрент-файлы в Корзину?";
+
+/* Removal confirm panel -> title */
+"Are you sure you want to remove %d transfers from the transfer list?" = "Вы действительно хотите удалить %d раздач из списка?";
+
+/* Removal confirm panel -> title */
+"Are you sure you want to remove \"%@\" from the transfer list and trash both the data and torrent files?" = "Вы действительно хотите удалить «%@» из списка раздач и переместить торрент-файл и данные в Корзину?";
+
+/* Removal confirm panel -> title */
+"Are you sure you want to remove \"%@\" from the transfer list and trash the data file?" = "Вы действительно хотите удалить «%@» из списка раздач и переместить данные в Корзину?";
+
+/* Removal confirm panel -> title */
+"Are you sure you want to remove \"%@\" from the transfer list and trash the torrent file?" = "Вы действительно хотите удалить «%@» из списка раздач и переместить торрент-файл в Корзину?";
+
+/* Removal confirm panel -> title */
+"Are you sure you want to remove \"%@\" from the transfer list?" = "Вы действительно хотите удалить «%@» из списка раздач?";
+
+/* Remove built-in tracker alert -> title */
+"Are you sure you want to remove a built-in tracker?" = "Вы действительно хотите удалить предустановленные трекеры?";
+
+/* Stats reset -> title */
+"Are you sure you want to reset usage statistics?" = "Вы действительно хотите очистить статистику?";
+
+/* inspector -> peer table -> header tool tip */
+"Available" = "Доступен";
+
+/* Transfer speed (Bytes per second) */
+"B/s" = "Б/с";
+
+/* Preferences -> toolbar item title */
+"Bandwidth" = "Ширина канала";
+
+/* Growl notification description */
+"Bandwidth settings changed" = "Настройки ширины канала изменены";
+
+/* Groups -> Name */
+"Blue" = "Синяя";
+
+/* File size - bytes */
+"bytes" = "Б";
+
+/* Confirm Quit panel -> button
+   Create torrent -> blank address -> button
+   Add torrent -> same name -> button
+   Removal confirm panel -> button
+   Blocklist -> cancel button
+   Remove built-in tracker alert -> button
+   Stats reset -> button */
+
+
+
+
+
+
+"Cancel" = "Отменить";
+
+/* Torrent Table -> tooltip */
+"Change transfer settings" = "Изменить настройки передачи";
+
+/* File Outline -> Menu */
+"Check Selected" = "Отметить выбранное";
+
+/* Torrent -> status string */
+"Checking existing data (%.2f%%)" = "Проверка существующих данных (%.2f%%)";
+
+/* Folder cannot be used alert -> location button */
+"Choose New Location" = "Выберите другую папку";
+
+/* Message window -> save button */
+"Clear" = "Очистить";
+
+/* Groups -> color button */
+"Color" = "Цвет";
+
+/* Blocklist -> message */
+"Connecting to site" = "Подключаюсь к сайту";
+
+/* Torrent file copy alert -> title */
+"Copy of \"%@\" Cannot Be Created" = "Копия «%@» не может быть создана";
+
+/* Create torrent -> failed -> warning */
+"Could not read \"%s\": %s." = "Не могу прочитать «%1$s»: %2$s.";
+
+/* Create torrent -> failed -> warning */
+"Could not write \"%s\": %s." = "Не могу записать «%1$s»: %2$s.";
+
+/* Create torrent -> blank address -> button
+   Create toolbar item -> label */
+
+"Create" = "Создать";
+
+/* Drag overlay -> file */
+"Create a Torrent File" = "Создать торрент-файл";
+
+/* Create torrent -> select file
+   Create toolbar item -> palette label */
+
+"Create Torrent File" = "Создать торрент-файл";
+
+/* Create toolbar item -> tooltip */
+"Create torrent file" = "Создать торрент-файл";
+
+/* Create torrent -> failed -> title */
+"Creation of \"%@\" failed." = "При создании «%@» произошла ошибка.";
+
+/* Inspector -> peer -> status */
+"Currently downloading (interested and not choked)" = "Скачиваю (заинтересован и открыт)";
+
+/* Inspector -> peer -> status */
+"Currently uploading (interested and not choked)" = "Раздаю (заинтересован и открыт)";
+
+/* Message window -> table column */
+"Date" = "Дата";
+
+/* Message window -> level string
+   Message window -> level */
+
+"Debug" = "Отладка";
+
+/* Torrent -> status string
+   status bar -> status label */
+
+"DL" = "Скачиваю";
+
+/* Torrent disk space alert -> button */
+"Do not check disk space again" = "Не проверять еще раз";
+
+/* Open duplicate alert -> button
+   Create torrent -> blank address -> button
+   Remove built-in tracker alert -> button
+   Add torrent -> same name -> button
+   Stats reset -> button */
+
+
+
+
+"Don't Alert Again" = "Больше не предупреждать";
+
+/* files tab -> tooltip */
+"Don't Download" = "Не скачивать";
+
+/* file table -> header tool tip
+   files tab -> tooltip */
+
+"Download" = "Скачать";
+
+/* Torrent disk space alert -> button */
+"Download Anyway" = "Скачать в любом случае";
+
+/* Growl notification title */
+"Download Complete" = "Скачивание завершено";
+
+/* Blocklist -> message */
+"Download of the blocklist failed." = "Не могу скачать черный список.";
+
+/* files tab -> tooltip */
+"Download Some" = "Файлы торрента";
+
+/* Torrent table -> group row -> tooltip */
+"Download speed" = "Скорость скачивания";
+
+/* Stats window -> label */
+"Downloaded" = "Скачано";
+
+/* Torrent -> status string */
+"Downloading" = "Скачиваю";
+
+/* Blocklist -> message */
+"Downloading blocklist" = "Скачиваю черный список";
+
+/* Torrent -> status string */
+"Downloading from %d of %d peers" = "Скачиваю от %1$d из %2$d пользователей";
+
+/* Torrent -> status string */
+"Downloading from %d of 1 peer" = "Скачиваю от %d из 1 пользователя";
+
+/* inspector -> peer table -> header tool tip */
+"Downloading From Peer" = "Скачиваю от пользователя";
+
+/* inspector -> web seed table -> header tool tip */
+"Downloading From Web Seed" = "Скачиваю с сайта";
+
+/* inspector -> peer table -> header tool tip
+   Inspector -> Peers tab -> table row tooltip */
+
+"Encrypted Connection" = "Зашифрованное соединение";
+
+/* Message window -> level string
+   Torrent -> status string
+   Message window -> level
+   Blocklist -> message */
+
+
+
+"Error" = "Ошибка";
+
+/* Inspector -> title */
+"Files" = "Файлы";
+
+/* Filter toolbar item -> label */
+"Filter" = "Фильтр";
+
+/* Inspector -> Peers tab -> table row tooltip */
+"From: cache" = "Из кеша";
+
+/* Inspector -> Peers tab -> table row tooltip */
+"From: incoming connection" = "Источник: входящее подключение";
+
+/* Inspector -> Peers tab -> table row tooltip */
+"From: peer exchange" = "Источник: обмен пользователями";
+
+/* Inspector -> Peers tab -> table row tooltip */
+"From: tracker" = "Источник: трекер";
+
+/* File size - gigabytes */
+"GB" = "ГБ";
+
+/* Preferences -> toolbar item title */
+"General" = "Основные";
+
+/* Inspector -> title */
+"General Info" = "Информация";
+
+/* Groups -> Name */
+"Gray" = "Серая";
+
+/* Groups -> Name */
+"Green" = "Зеленая";
+
+/* Groups -> Button */
+"Group" = "Этикетки";
+
+/* Groups -> window title */
+"Groups" = "Этикетки";
+
+/* View menu -> Filter Bar */
+"Hide Filter Bar" = "Скрыть фильтр";
+
+/* View menu -> Inspector */
+"Hide Inspector" = "Скрыть инспектор";
+
+/* View menu -> Status Bar */
+"Hide Status Bar" = "Скрыть панель статуса";
+
+/* File Outline -> Priority Menu */
+"High" = "Выской";
+
+/* files tab -> tooltip */
+"High Priority" = "Высокий приоритет";
+
+/* Add torrent -> same name -> message */
+"If you are attempting to use already existing data, the root data directory should be inside the destination directory." = "Если вы хотите использовать существующие данные, корневая папка должна быть внутри выбранной.";
+
+/* Inspector -> tracker tab */
+"In progress" = "В процессе";
+
+/* Message window -> level string
+   Message window -> level */
+
+"Info" = "Информация";
+
+/* Inspector toolbar item -> label */
+"Inspector" = "Инспектор";
+
+/* Download not a torrent -> message */
+"It appears that the file \"%@\" from %@ is not a torrent file." = "Файл «%1$@» из %2$@ не является торрент-файлом.";
+
+/* File size - kilobytes */
+"KB" = "КБ";
+
+/* Prefs -> blocklist -> message */
+"Last updated" = "Последнее обновление";
+
+/* About window -> license button */
+"License" = "Лицензия";
+
+/* torrent action menu -> upload/download limit
+   Action menu -> upload/download limit */
+
+"Limit (%d KB/s)" = "С ограничением (%d КБ/с)";
+
+/* Save log alert panel -> title */
+"Log Could Not Be Saved" = "Журнал не может быть сохранен";
+
+/* File Outline -> Priority Menu */
+"Low" = "Низкий";
+
+/* files tab -> tooltip */
+"Low Priority" = "Низкий приоритет";
+
+/* File size - megabytes */
+"MB" = "МБ";
+
+/* Message window -> table column */
+"Message" = "Сообщение";
+
+/* Message window -> title */
+"Message Log" = "Журнал сообщений";
+
+/* files tab -> tooltip */
+"Multiple Priorities" = "Разные приоритеты";
+
+/* Prefs -> blocklist -> message
+   No Ratio
+   Inspector -> Peers tab -> table row tooltip */
+
+
+"N/A" = "Нет данных";
+
+/* Preferences -> toolbar item title */
+"Network" = "Сеть";
+
+/* Prefs -> blocklist -> message */
+"Never" = "Никогда";
+
+/* Group table row */
+"No Group" = "✕";
+
+/* Inspector -> selected torrents */
+"No Torrents Selected" = "Ни один торрент не выбран";
+
+/* Groups -> Menu
+   Groups -> Button */
+
+"None" = "✕";
+
+/* File Outline -> Priority Menu */
+"Normal" = "Нормальный";
+
+/* files tab -> tooltip */
+"Normal Priority" = "Нормальный приоритет";
+
+/* Torrent disk space alert -> title */
+"Not enough remaining disk space to download \"%@\" completely." = "Недостаточно места на диске для скачивания «%@».";
+
+/* Torrent file copy alert -> button
+   Move error alert -> button
+   Create torrent -> file already exists warning -> button
+   Save log alert panel -> button
+   Folder cannot be used alert -> button
+   Torrent download failed -> button
+   Torrent disk space alert -> button
+   Create torrent -> failed -> button
+   Create torrent -> no files -> button
+   Download not a torrent -> button
+   Open invalid alert -> button
+   About window -> license close button
+   Blocklist -> button
+   Open duplicate alert -> button
+   Create torrent -> zero size -> button
+   Move folder cannot be used alert -> button
+   Move inside itself alert -> button */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"OK" = "OK";
+
+/* Removal confirm panel -> message part 2 */
+"Once removed, continuing the transfers will require the torrent files." = "После удаления продолжение раздач потребует наличия торрент-файла.";
+
+/* File Outline -> Menu */
+"Only Check Selected" = "Проверить только выбранное";
+
+/* Open toolbar item -> label */
+"Open" = "Открыть";
+
+/* Open address toolbar item -> label */
+"Open Address" = "Открыть адрес";
+
+/* Open address toolbar item -> palette label */
+"Open Torrent Address" = "Открыть торрент по адресу";
+
+/* Open toolbar item -> tooltip */
+"Open torrent files" = "Открыть торрент-файл";
+
+/* Open toolbar item -> palette label */
+"Open Torrent Files" = "Открыть торрент-файл";
+
+/* Open address toolbar item -> tooltip */
+"Open torrent web address" = "Открыть торрент по URL";
+
+/* Inspector -> title */
+"Options" = "Опции";
+
+/* Groups -> Name */
+"Orange" = "Оранжевая";
+
+/* All toolbar item -> palette label */
+"Pause / Resume All" = "Приостановить/возобновить все";
+
+/* Selected toolbar item -> palette label */
+"Pause / Resume Selected" = "Приостановить/возобновить выбранные";
+
+/* All toolbar item -> label */
+"Pause All" = "Приостановить все";
+
+/* All toolbar item -> tooltip */
+"Pause all transfers" = "Приостановить все раздачи";
+
+/* Selected toolbar item -> label */
+"Pause Selected" = "Приостановить выбранное";
+
+/* Selected toolbar item -> tooltip */
+"Pause selected transfers" = "Приостановить выбранные раздачи";
+
+/* Torrent Table -> tooltip */
+"Pause the transfer" = "Приостановить раздачу";
+
+/* Torrent -> status string */
+"Paused" = "Приостановлено";
+
+/* Inspector -> peer -> status */
+"Peer is unchoking you, but you are not interested" = "Имеющиеся у пользователя части торрента вас не интересуют";
+
+/* Inspector -> peer -> status */
+"Peer wants you to upload, but you do not want to (interested and choked)" = "Пользователь заинтересован в имеющихся у вас частях торрента, но вы его блокируете";
+
+/* Inspector -> title
+   Preferences -> toolbar item title */
+
+"Peers" = "Пользователи";
+
+/* Inspector -> Peers tab -> table row tooltip */
+"Port" = "Порт";
+
+/* Preferences -> Network -> port status */
+"Port check site is down" = "Сайт проверки порта недоступен";
+
+/* Preferences -> Network -> port status */
+"Port is closed" = "Порт закрыт";
+
+/* Preferences -> Network -> port status */
+"Port is open" = "Порт открыт";
+
+/* file table -> header tool tip
+   File Outline -> Menu */
+
+"Priority" = "Приоритет";
+
+/* files tab -> tooltip */
+"Priority Not Available" = "Приоритет недоступен";
+
+/* Inspector -> private torrent */
+"Private Torrent, PEX automatically disabled" = "Частный торрент, PEX был отключен";
+
+/* Message window -> table column */
+"Process" = "Процесс";
+
+/* Blocklist -> message */
+"Processing blocklist" = "Обрабатываю черный список";
+
+/* Stats window -> label */
+"Program Started" = "Запущено";
+
+/* Inspector -> Peers tab -> table row tooltip */
+"Progress: %.1f%%" = "Прогресс: %.1f%%";
+
+/* Inspector -> private torrent */
+"Public Torrent" = "Публичный торрент";
+
+/* Groups -> Name */
+"Purple" = "Пурпурная";
+
+/* QuickLook toolbar item -> label
+   QuickLook toolbar item -> palette label
+   QuickLook toolbar item -> tooltip */
+
+
+"Quick Look" = "Быстрый просмотр";
+
+/* Transmission already running alert -> button
+   Confirm Quit panel -> button */
+
+"Quit" = "Завершить";
+
+/* Dock Badger -> quit message
+   Dock Badger -> quit */
+
+"Quitting" = "Заверш.";
+
+/* Stats window -> label
+   status bar -> status label
+   Torrent table -> group row -> tooltip
+   Torrent -> status string */
+
+
+
+"Ratio" = "Рейтинг";
+
+/* Groups -> Name */
+"Red" = "Красная";
+
+/* Action menu -> status string toggle */
+"Remaining Time" = "Оставшееся время";
+
+/* Torrent -> eta string */
+"remaining time unknown" = "оставшееся время неизвестно";
+
+/* Preferences -> toolbar item title */
+"Remote" = "Удаленное управление";
+
+/* Remove built-in tracker alert -> button
+   Removal confirm panel -> button
+   Remove toolbar item -> label */
+
+
+"Remove" = "Удалить";
+
+/* Remove toolbar item -> palette label */
+"Remove Selected" = "Удалить выбранное";
+
+/* Remove toolbar item -> tooltip */
+"Remove selected transfers" = "Удалить выбранные раздачи";
+
+/* Stats window -> reset button
+   Stats reset -> button */
+
+"Reset" = "Очистить";
+
+/* All toolbar item -> label */
+"Resume All" = "Возобновить все";
+
+/* All toolbar item -> tooltip */
+"Resume all transfers" = "Возобновить все раздачи";
+
+/* Selected toolbar item -> label */
+"Resume Selected" = "Возобновить выбранное";
+
+/* Selected toolbar item -> tooltip */
+"Resume selected transfers" = "Возобновить выбранные раздачи";
+
+/* Torrent cell -> button info */
+"Resume the transfer" = "Возобновить раздачу";
+
+/* Torrent cell -> button info */
+"Resume the transfer right away" = "Возобновить раздачу прямо сейчас";
+
+/* File Outline -> Menu */
+"Reveal in Finder" = "Показать в Finder";
+
+/* Torrent cell -> button info */
+"Reveal the data file in Finder" = "Показать данные в Finder";
+
+/* Stats window -> label */
+"Running Time" = "Время работы";
+
+/* Message window -> save button */
+"Save" = "Сохранить";
+
+/* Torrent -> status string */
+"Seeding" = "Раздаю";
+
+/* Growl notification title */
+"Seeding Complete" = "Раздача завершена";
+
+/* Torrent -> status string */
+"Seeding complete" = "Раздача завершена";
+
+/* Torrent -> status string */
+"Seeding to %d of %d peers" = "Раздаю к %1$d из %2$d пользователей";
+
+/* Torrent -> status string */
+"Seeding to %d of 1 peer" = "Раздаю к %d из 1 пользователя";
+
+/* Default incomplete folder cannot be used alert -> prompt
+   Move torrent -> prompt
+   Open torrent -> prompt
+   Preferences -> Open panel prompt
+   Create torrent -> select file
+   Create torrent -> location sheet -> button
+   Default folder cannot be used alert -> prompt
+   Folder cannot be used alert -> prompt */
+
+
+
+
+
+
+
+"Select" = "Выбрать";
+
+/* Create torrent -> select file */
+"Select a file or folder for the torrent file." = "Выберите папку или файл для торрента.";
+
+/* Folder cannot be used alert -> select destination folder
+   Add -> select destination folder */
+
+"Select the download folder for \"%@\"" = "Выберите папку для скачивания «%@»";
+
+/* Create torrent -> location sheet -> message */
+"Select the name and location for the torrent file." = "Выберите имя и местоположение для торрент-файла.";
+
+/* Move torrent -> select destination folder */
+"Select the new folder for %d data files." = "Выберите новую папку для %d файлов данных.";
+
+/* Move torrent -> select destination folder */
+"Select the new folder for \"%@\"." = "Выберите новую папку для «%@».";
+
+/* Main window -> 1st bottom left button (action) tooltip */
+"Shortcuts for changing global settings." = "Сочетание клавиш для изменения общих настроек.";
+
+/* View menu -> Filter Bar */
+"Show Filter Bar" = "Показать фильтр";
+
+/* View menu -> Inspector */
+"Show Inspector" = "Показать инспектор";
+
+/* View menu -> Status Bar */
+"Show Status Bar" = "Показать панель статуса";
+
+/* Growl notification title */
+"Speed Limit Auto Disabled" = "Ограничение скорости отключено";
+
+/* Growl notification title */
+"Speed Limit Auto Enabled" = "Ограничение скорости включено";
+
+/* Main window -> 2nd bottom left button (turtle) tooltip */
+"Speed Limit overrides the total bandwidth limits with its own limits." = "Будет использовано ограничение скорости вместо настроек ширины канала";
+
+/* Torrent -> status string */
+"Stalled" = "Неактивна";
+
+/* Stats window -> title */
+"Statistics" = "Статистика";
+
+/* Action menu -> status string toggle */
+"Status of Selected Files" = "Статус выбранных файлов";
+
+/* torrent action menu -> ratio stop
+   Action menu -> ratio stop */
+
+"Stop at Ratio (%.2f)" = "Остановить при рейтинге (%.2f)";
+
+/* Torrent cell -> button info */
+"Stop waiting to start" = "Не ожидать начала";
+
+/* File size - terabytes */
+"TB" = "ТБ";
+
+/* Add torrent -> same name -> title */
+"The destination directory and root data directory have the same name." = "Выбранная и корневая папки имеют одно и то же имя.";
+
+/* Default folder cannot be used alert -> message */
+"The download folder cannot be used. Choose a new location." = "Папка не может быть использована для скачивания. Выберите другое местоположение.";
+
+/* Folder cannot be used alert -> title */
+"The folder for downloading \"%@\" cannot be used." = "Папка «%@» не может быть использована для скачивания.";
+
+/* Move folder cannot be used alert -> title */
+"The folder for moving the completed \"%@\" cannot be used." = "Папка не может быть использована для перемещения завершенной раздачи «%@» .";
+
+/* Default incomplete folder cannot be used alert -> message */
+"The incomplete folder cannot be used. Choose a new location or cancel for none." = "Папка не может быть использована. Выберите другое местоположение.";
+
+/* Move error alert -> message
+   Move inside itself alert -> message */
+
+"The move operation of \"%@\" cannot be done." = "Не могу переместить «%@».";
+
+/* Torrent download failed -> message */
+"The torrent could not be downloaded from %@: %@." = "Торрент не может быть скачан из %1$@: %2$@.";
+
+/* Torrent file copy alert -> message */
+"The torrent file (%@) cannot be found." = "Торрент-файл (%@) не найден.";
+
+/* Open invalid alert -> message */
+"The torrent file cannot be opened because it contains invalid data." = "Торрент-файл не может быть открыт, так как содержит неверные данные.";
+
+/* Open duplicate alert -> message */
+"The torrent file cannot be opened because it is a duplicate of an already added transfer." = "Торрент-файл не может быть открыт, так как это копия уже существующей раздачи.";
+
+/* Create torrent -> blank address -> message */
+"The torrent file will not be able to be opened. A torrent file with no tracker address is only useful when you plan to upload the file to a tracker website that will add the address for you." = "Данный торрент-файл будет невозможно открыть. Торрент-файлы не содержащие адресов трекеров полезны только в том случае, если вы планируете загружать их на сайт трекера, который добавить адрес автоматически.";
+
+/* Create torrent -> zero size -> title */
+"The total file size is zero bytes." = "Общий размер файла 0 Б.";
+
+/* Remove built-in tracker alert -> message */
+"The tracker address is part of the torrent file. Once removed, Transmission will no longer attempt to contact it." = "Адрес трекера является частью торрент-файла. После его удаления Transmission больше не сможет работать с ним.";
+
+/* Torrent disk space alert -> message */
+"The transfer will be paused. Clear up space on %@ or deselect files in the torrent inspector to continue." = "Передача будет приостановлена. Освободите место на диске %@ или отмените скачивание нескольких файлов в Инспекторе.";
+
+/* Confirm Quit panel -> message */
+"There are %d active transfers that will be paused on quit. The transfers will automatically resume on the next launch." = "%d активных раздач будут приостановлены. При следующем запуске они будут автоматически возобновлены.";
+
+/* Removal confirm panel -> message part 1 */
+"There are %d active transfers." = "%d раздач активны в данный момент.";
+
+/* Removal confirm panel -> message part 1 */
+"There are %d transfers (%d active)." = "%1$d раздач (%2$d активных).";
+
+/* Transmission already running alert -> message */
+"There is already a copy of Transmission running. This copy cannot be opened until that instance is quit." = "Transmission уже запущен. Новая копия не может быть запущена, пока не будет завершена существующая.";
+
+/* Confirm Quit panel -> message */
+"There is an active transfer that will be paused on quit. The transfer will automatically resume on the next launch." = "Активная раздача будет приостановлена. При следующем запуске она будет автоматически возобновлена.";
+
+/* Create torrent -> blank address -> title */
+"There is no tracker address." = "Не указан адрес трекера.";
+
+/* Create torrent -> no files -> warning */
+"There must be at least one file in a folder to create a torrent file." = "Для создания торрент-файла в папке должен быть хотя бы один файл.";
+
+/* Save log alert panel -> message */
+"There was a problem creating the file \"%@\"." = "Ошибка во время создания «%@».";
+
+/* Move error alert -> title */
+"There was an error moving the data file." = "При перемещении данных произошла ошибка.";
+
+/* Remove built-in tracker alert -> message */
+"These tracker addresses are part of the torrent file. Once removed, Transmission will no longer attempt to contact them." = "Адреса трекеров является частью торрент-файла. После их удаления Transmission больше не сможет работать с ними.";
+
+/* Create torrent -> no files -> title */
+"This folder contains no files." = "Эта папка не содержит файлов.";
+
+/* Removal confirm panel -> message */
+"This transfer is active. Once removed, continuing the transfer will require the torrent file." = "Раздача активна. Для восстановления удаленной раздачи потребуется оригинальный торрент-файл.";
+
+/* Stats reset -> message */
+"This will clear the global statistics displayed by Transmission. Individual transfer statistics will not be affected." = "Общая статистика Transmission будет сброшена. Статистика индивидуальных раздач сохранится.";
+
+/* Inspector -> tracker table */
+"Tier %d" = "%d уровень";
+
+/* Filter toolbar item -> palette label */
+"Toggle Filter" = "Показать/скрыть фильтр";
+
+/* Inspector toolbar item -> palette label */
+"Toggle Inspector" = "Показать/скрыть Испектор";
+
+/* Filter toolbar item -> tooltip */
+"Toggle the filter bar" = "Показать/скрыть панель фильтра";
+
+/* Inspector toolbar item -> tooltip */
+"Toggle the torrent inspector" = "Показать/скрыть Инспектор торрента";
+
+/* Torrent download error -> title
+   Download not a torrent -> title */
+
+"Torrent download failed" = "Ошибка при скачивании торрента";
+
+/* Growl notification title */
+"Torrent File Auto Added" = "Торрент-файл добавлен";
+
+/* Inspector -> title */
+"Torrent Inspector" = "Инспектор торрента";
+
+/* Status Bar -> speed tooltip */
+"Total download speed" = "Общая скорость скачивания";
+
+/* stats total */
+"Total N/A" = "Нет данных";
+
+/* Status Bar -> speed tooltip */
+"Total upload speed" = "Общая скорость раздачи";
+
+/* Inspector -> title */
+"Tracker" = "Трекер";
+
+/* Preferences -> toolbar item title */
+"Transfers" = "Раздачи";
+
+/* Transmission already running alert -> title */
+"Transmission is already running." = "Transmission уже запущен.";
+
+/* Inspector -> torrent location */
+"Transmission Support Folder" = "Папка справки Transmission";
+
+/* Torrent -> status string
+   status bar -> status label */
+
+"UL" = "Раздаю";
+
+/* File Outline -> Menu */
+"Uncheck Selected" = "Снять выбор";
+
+/* Torrent -> error string unreadable */
+"unreadable error" = "неопознанная ошибка";
+
+/* Save log panel -> default file name */
+"untitled" = "Новый";
+
+/* Torrent table -> group row -> tooltip */
+"Upload speed" = "Скорость раздачи";
+
+/* Stats window -> label */
+"Uploaded" = "Роздано";
+
+/* Torrent -> progress string */
+"uploaded %@ (Ratio: %@)" = "роздано %1$@ (Рейтинг: %2$@)";
+
+/* inspector -> peer table -> header tool tip */
+"Uploading To Peer" = "Раздаю к пользователю";
+
+/* Inspector -> tracker table */
+"User-Added" = "Добавленные пользователем";
+
+/* Torrent -> status string */
+"Waiting to check existing data" = "Ожидаю проверки существующих данных";
+
+/* Torrent -> status string */
+"Waiting to download" = "Ожидаю скачивания";
+
+/* Torrent -> status string */
+"Waiting to seed" = "Ожидаю раздачи";
+
+/* Drag overlay -> url */
+"Web Address" = "URL";
+
+/* Torrent -> status string */
+"web seed" = "сайт раздачи";
+
+/* Groups -> Name */
+"Yellow" = "Желтая";
+
+/* Inspector -> peer -> status */
+"You unchoked the peer, but the peer is not interested" = "Пользователь не заинтересован в имеющихся у вас частях торрента";
+
+/* Inspector -> peer -> status */
+"You want to download, but peer does not want to send (interested and choked)" = "Вы заинтересованы в имеющихся у пользователя частях торрента, но он вас блокирует";

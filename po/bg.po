@@ -1,0 +1,2146 @@
+# $Id$
+#
+# Bulgarian translation of Transmission.
+# This file is distributed under the same license as the Transmission package.
+# Lubomir Marinov <lubomir.marinov@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Transmission HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-23 17:50-0600\n"
+"PO-Revision-Date: 2009-02-21 14:25+0000\n"
+"Last-Translator: Lachezar Dobrev <Unknown>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2009-02-26 18:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gtk/actions.c:47
+msgid "Sort by _Activity"
+msgstr "Подреждане по _дейност"
+
+#: ../gtk/actions.c:49
+msgid "Sort by _Name"
+msgstr "Подреждане по _име"
+
+#: ../gtk/actions.c:51
+msgid "Sort by _Progress"
+msgstr "Подреждане по _напредък"
+
+#: ../gtk/actions.c:53
+msgid "Sort by _Ratio"
+msgstr "Подреждане по _коефициент"
+
+#: ../gtk/actions.c:55
+msgid "Sort by _State"
+msgstr "Подреждане по _състояние"
+
+#: ../gtk/actions.c:57
+msgid "Sort by _Tracker"
+msgstr "Подреждане по _тракер"
+
+#: ../gtk/actions.c:59
+msgid "Sort by A_ge"
+msgstr "Подреждане по _дата"
+
+#: ../gtk/actions.c:78
+msgid "_Main Window"
+msgstr "_Главен прозорец"
+
+#: ../gtk/actions.c:80
+msgid "Message _Log"
+msgstr "Дневник със _съобщения"
+
+#: ../gtk/actions.c:96
+msgid "_Minimal View"
+msgstr "_Минимален изглед"
+
+#: ../gtk/actions.c:99
+msgid "_Reverse Sort Order"
+msgstr "_Обратен ред на подреждане"
+
+#: ../gtk/actions.c:102
+msgid "_Filterbar"
+msgstr "Лента за _филтриране"
+
+#: ../gtk/actions.c:104
+msgid "_Statusbar"
+msgstr "Лента на _състояние"
+
+#: ../gtk/actions.c:106
+msgid "_Toolbar"
+msgstr "Лента с _инструменти"
+
+#: ../gtk/actions.c:111
+msgid "_Torrent"
+msgstr "_Торент"
+
+#: ../gtk/actions.c:112
+msgid "_View"
+msgstr "_Изглед"
+
+#: ../gtk/actions.c:113
+msgid "_Sort Torrents By"
+msgstr "_Подреждане на потоци по"
+
+#: ../gtk/actions.c:114
+msgid "_Edit"
+msgstr "_Редактиране"
+
+#: ../gtk/actions.c:115
+msgid "_Help"
+msgstr "Помо_щ"
+
+#: ../gtk/actions.c:116 ../gtk/actions.c:117
+msgid "Add a torrent"
+msgstr "Добавяне на торент"
+
+#: ../gtk/actions.c:117
+msgid "_Add..."
+msgstr "_Добавяне..."
+
+#: ../gtk/actions.c:118
+msgid "_Start"
+msgstr "_Начало"
+
+#: ../gtk/actions.c:118
+msgid "Start torrent"
+msgstr "Стартиране на торента"
+
+#: ../gtk/actions.c:119
+msgid "_Statistics"
+msgstr "_Статистики"
+
+#: ../gtk/actions.c:120 ../gtk/add-dialog.c:364
+msgid "_Verify Local Data"
+msgstr "_Проверка на локалните данни"
+
+#: ../gtk/actions.c:121
+msgid "_Pause"
+msgstr "_Паузиране"
+
+#: ../gtk/actions.c:121
+msgid "Pause torrent"
+msgstr "Прекъсване на торента"
+
+#: ../gtk/actions.c:122
+msgid "_Pause All"
+msgstr "_Всички на пауза"
+
+#: ../gtk/actions.c:122
+msgid "Pause all torrents"
+msgstr "Пауза на всички торенти"
+
+#: ../gtk/actions.c:123
+msgid "_Start All"
+msgstr ""
+
+#: ../gtk/actions.c:123
+msgid "Start all torrents"
+msgstr ""
+
+#: ../gtk/actions.c:124
+msgid "Remove torrent"
+msgstr "Премахване на торента"
+
+#: ../gtk/actions.c:125
+msgid "_Delete Files and Remove"
+msgstr "_Изтриване на файлове и премахване"
+
+#: ../gtk/actions.c:126
+msgid "_New..."
+msgstr "_Създаване на нов..."
+
+#: ../gtk/actions.c:126
+msgid "Create a torrent"
+msgstr "Създаване на торент"
+
+#: ../gtk/actions.c:127
+msgid "_Quit"
+msgstr "_Излизане"
+
+#: ../gtk/actions.c:128
+msgid "Select _All"
+msgstr "Избиране на _всички"
+
+#: ../gtk/actions.c:129
+msgid "Dese_lect All"
+msgstr "Пре_махване на избор на всички"
+
+#: ../gtk/actions.c:131
+msgid "Torrent properties"
+msgstr "Свойства на торент"
+
+#: ../gtk/actions.c:132
+msgid "_Open Folder"
+msgstr "_Отваряне на папка"
+
+#: ../gtk/actions.c:134
+msgid "_Contents"
+msgstr "_Съдържание"
+
+#: ../gtk/actions.c:135
+msgid "Ask Tracker for _More Peers"
+msgstr "Питане на тракер за _повече постове"
+
+#: ../gtk/add-dialog.c:241
+msgid "Torrent files"
+msgstr "Файлове с описания на потоци"
+
+#: ../gtk/add-dialog.c:246
+msgid "All files"
+msgstr "Всички файлове"
+
+#: ../gtk/add-dialog.c:274
+msgid "Torrent Options"
+msgstr "Опции на торент"
+
+#: ../gtk/add-dialog.c:298
+msgid "_Move source file to Trash"
+msgstr "_Преместване на файла източник в кошчето"
+
+#: ../gtk/add-dialog.c:300 ../gtk/tr-prefs.c:316
+msgid "_Start when added"
+msgstr "_Стартиране при добавяне"
+
+#: ../gtk/add-dialog.c:311
+msgid "_Torrent file:"
+msgstr "_Торент файл:"
+
+#: ../gtk/add-dialog.c:317
+msgid "Select Source File"
+msgstr "Избиране на изходен файл"
+
+#: ../gtk/add-dialog.c:332 ../gtk/tr-prefs.c:325
+msgid "_Destination folder:"
+msgstr "Папка на _записване:"
+
+#: ../gtk/add-dialog.c:339
+msgid "Select Destination Folder"
+msgstr "Избиране на папка на записване"
+
+#: ../gtk/add-dialog.c:437
+msgid "Add a Torrent"
+msgstr "Добавяне на торент"
+
+#: ../gtk/add-dialog.c:454 ../gtk/tr-prefs.c:312
+msgid "Display _options dialog"
+msgstr "Показване на диалог с _настройки"
+
+#: ../gtk/blocklist.c:90
+msgid "Retrieving blocklist..."
+msgstr "Получаване на списък за блокиране..."
+
+#: ../gtk/blocklist.c:100
+#, c-format
+msgid "Unable to get blocklist: %s"
+msgstr "Не може да се получи списък за блокиране: %s"
+
+#: ../gtk/blocklist.c:126
+msgid "Unable to get blocklist."
+msgstr "Не може да се получи списък за блокиране."
+
+#: ../gtk/blocklist.c:132
+msgid "Uncompressing blocklist..."
+msgstr "Извличане на списък за блокиране..."
+
+#: ../gtk/blocklist.c:142
+msgid "Parsing blocklist..."
+msgstr "Анализиране на списък за блокиране..."
+
+#: ../gtk/blocklist.c:149
+#, c-format
+msgid "Blocklist updated with %'d entries"
+msgstr "Списъка за блокиране е обновен с %'d записа"
+
+#: ../gtk/conf.c:63 ../gtk/makemeta-ui.c:142 ../libtransmission/fdlimit.c:228
+#: ../libtransmission/metainfo.c:98 ../libtransmission/utils.c:589
+#: ../libtransmission/utils.c:600
+#, c-format
+msgid "Couldn't create \"%1$s\": %2$s"
+msgstr "\"%1$s\" не може да бъде създаден: %2$s"
+
+#: ../gtk/conf.c:88 ../libtransmission/bencode.c:1427
+#: ../libtransmission/fdlimit.c:257
+#, c-format
+msgid "Couldn't open \"%1$s\": %2$s"
+msgstr "\"%1$s\" не може да бъде отворен: %2$s"
+
+#: ../gtk/conf.c:93
+#, c-format
+msgid "%s is already running."
+msgstr "%s вече се изпълнява."
+
+#: ../gtk/details.c:274
+msgid "Web Seeds"
+msgstr "Уеб посявки"
+
+#. 'download speed' column header. terse to keep the column narrow.
+#: ../gtk/details.c:276 ../gtk/details.c:318
+msgid "Down"
+msgstr "Сваляне"
+
+#: ../gtk/details.c:316
+msgid "Address"
+msgstr "Адрес"
+
+#. 'upload speed' column header.  terse to keep the column narrow.
+#: ../gtk/details.c:320
+msgid "Up"
+msgstr "Качване"
+
+#: ../gtk/details.c:321
+msgid "Client"
+msgstr "Клиенто"
+
+#. 'percent done' column header. terse to keep the column narrow.
+#: ../gtk/details.c:323
+msgid "%"
+msgstr "%"
+
+#: ../gtk/details.c:325
+msgid "Status"
+msgstr "Състояние"
+
+#: ../gtk/details.c:619
+msgid "Optimistic unchoke"
+msgstr "Оптимистично потискане"
+
+#: ../gtk/details.c:622
+msgid "Downloading from this peer"
+msgstr "Изтегляне от този пиър"
+
+#: ../gtk/details.c:626
+msgid "We would download from this peer if they would let us"
+msgstr "Бихме теглили от този пиър, ако ни позволят"
+
+#: ../gtk/details.c:630
+msgid "Uploading to peer"
+msgstr "Качване на пиър"
+
+#: ../gtk/details.c:633
+msgid "We would upload to this peer if they asked"
+msgstr "Бихме качвали към този пиър, ако ни помолят"
+
+#: ../gtk/details.c:638
+msgid "Peer has unchoked us, but we're not interested"
+msgstr "Пиъря спра дани потиска, но не сме заинтересувани"
+
+#: ../gtk/details.c:643
+msgid "We unchoked this peer, but they're not interested"
+msgstr "Спряхме да потискаме този пиър, но той вече не е заинтересуван"
+
+#: ../gtk/details.c:647
+msgid "Encrypted connection"
+msgstr "Криптирана връзка"
+
+#: ../gtk/details.c:651
+msgid "Peer was discovered through Peer Exchange (PEX)"
+msgstr "Беше разкрит пиър през размяна на пиър (PEX)"
+
+#: ../gtk/details.c:655
+msgid "Peer is an incoming connection"
+msgstr "Пиъра е входяща връзка"
+
+#: ../gtk/details.c:846
+msgid "<b>Seeders:</b>"
+msgstr "<b>Сийдъри:</b>"
+
+#: ../gtk/details.c:854
+msgid "<b>Leechers:</b>"
+msgstr "<b>Личъри:</b>"
+
+#: ../gtk/details.c:862
+msgid "<b>Times Completed:</b>"
+msgstr "<b>Пъти завършен:</b>"
+
+#: ../gtk/details.c:884 ../gtk/details.c:1423 ../gtk/details.c:1434
+msgid "Never"
+msgstr "Никога"
+
+#: ../gtk/details.c:909
+msgid "Details"
+msgstr "Подробности"
+
+#: ../gtk/details.c:912 ../gtk/makemeta-ui.c:284
+#, c-format
+msgid "%'d Piece"
+msgid_plural "%'d Pieces"
+msgstr[0] "%'d парче"
+msgstr[1] "%'d парчета"
+
+#. %1$s is number of pieces;
+#. %2$s is how big each piece is
+#: ../gtk/details.c:918 ../gtk/makemeta-ui.c:290
+#, c-format
+msgid "%1$s @ %2$s"
+msgstr "%1$s @ %2$s"
+
+#: ../gtk/details.c:922
+msgid "Pieces:"
+msgstr "Части:"
+
+#: ../gtk/details.c:930
+msgid "Hash:"
+msgstr "Хаш:"
+
+#: ../gtk/details.c:933
+msgid "Private to this tracker -- PEX disabled"
+msgstr "Частен за този тракер -- размяна на постове е невъзможена"
+
+#: ../gtk/details.c:934
+msgid "Public torrent"
+msgstr "Публичен поток"
+
+#: ../gtk/details.c:936
+msgid "Privacy:"
+msgstr "Достъпност:"
+
+#: ../gtk/details.c:948
+msgid "Comment:"
+msgstr "Коментар:"
+
+#: ../gtk/details.c:952
+msgid "Origins"
+msgstr "Източници"
+
+#: ../gtk/details.c:954
+msgid "Unknown"
+msgstr "Неизвестен"
+
+#: ../gtk/details.c:956
+msgid "Creator:"
+msgstr "Създател:"
+
+#: ../gtk/details.c:960
+msgid "Date:"
+msgstr "Дата:"
+
+#: ../gtk/details.c:963
+msgid "Location"
+msgstr "Местонахождение"
+
+#: ../gtk/details.c:969
+msgid "Destination folder:"
+msgstr "Папка на записване:"
+
+#: ../gtk/details.c:976
+msgid "Torrent file:"
+msgstr "Торент файл:"
+
+#: ../gtk/details.c:1024
+#, c-format
+msgid "%.1f%%"
+msgstr "%.1f%%"
+
+#: ../gtk/details.c:1030
+#, c-format
+msgid "%1$.1f%% (%2$.1f%% selected)"
+msgstr "%1$.1f%% (%2$.1f%% избрани)"
+
+#. %1$s is total size of what we've saved to disk
+#. %2$s is how much of it's passed the checksum test
+#. %3$s is how many pieces are verified
+#: ../gtk/details.c:1042
+#, c-format
+msgid "%1$s (%2$s verified in %3$d pieces)"
+msgstr "%1$s (%2$s проверен в %3$d части)"
+
+#: ../gtk/details.c:1062 ../gtk/util.c:57 ../gtk/util.c:79
+msgid "None"
+msgstr "Няма"
+
+#: ../gtk/details.c:1084
+msgid "Transfer"
+msgstr "Прехвърляне"
+
+#: ../gtk/details.c:1087
+msgid "State:"
+msgstr "Състояние:"
+
+#: ../gtk/details.c:1090
+msgid "Progress:"
+msgstr "Напредък:"
+
+#. "Have" refers to how much of the torrent we have
+#: ../gtk/details.c:1094
+msgid "Have:"
+msgstr "Налични:"
+
+#: ../gtk/details.c:1097 ../gtk/stats.c:149 ../gtk/stats.c:161
+msgid "Downloaded:"
+msgstr "Изтеглени:"
+
+#: ../gtk/details.c:1100 ../gtk/stats.c:147 ../gtk/stats.c:159
+msgid "Uploaded:"
+msgstr "Качени:"
+
+#: ../gtk/details.c:1104
+msgid "Failed DL:"
+msgstr "Неуспешни изтегляния:"
+
+#: ../gtk/details.c:1107 ../gtk/stats.c:151 ../gtk/stats.c:163
+msgid "Ratio:"
+msgstr "Съотношение:"
+
+#: ../gtk/details.c:1110
+msgid "Swarm rate:"
+msgstr "Съотношение на рояка:"
+
+#: ../gtk/details.c:1113
+msgid "Error:"
+msgstr "Грешка:"
+
+#: ../gtk/details.c:1117
+msgid "Completion"
+msgstr "Завърване"
+
+#: ../gtk/details.c:1129
+msgid "Dates"
+msgstr "Дати"
+
+#: ../gtk/details.c:1132
+msgid "Started at:"
+msgstr "Започнал на:"
+
+#: ../gtk/details.c:1135
+msgid "Last activity at:"
+msgstr "Последно действие:"
+
+#: ../gtk/details.c:1226 ../gtk/tr-prefs.c:504 ../gtk/tr-prefs.c:1107
+msgid "Limits"
+msgstr "Ограничения"
+
+#: ../gtk/details.c:1230 ../gtk/tr-prefs.c:1109
+msgid "Limit _download speed (KB/s):"
+msgstr "Ограничаване на скорост за _изтегляне (КБ/с):"
+
+#: ../gtk/details.c:1249 ../gtk/tr-prefs.c:1116
+msgid "Limit _upload speed (KB/s):"
+msgstr "Ограничаване на скорост за _качване (КБ/с):"
+
+#: ../gtk/details.c:1267
+msgid "Peer Connections"
+msgstr "Връзки с постове"
+
+#: ../gtk/details.c:1272
+msgid "_Maximum peers:"
+msgstr "_Максимално пиъри:"
+
+#: ../gtk/details.c:1327 ../gtk/makemeta-ui.c:427 ../gtk/tr-prefs.c:1363
+msgid "Trackers"
+msgstr "Тракери"
+
+#: ../gtk/details.c:1333
+msgid "Scrape"
+msgstr "Scrape"
+
+#: ../gtk/details.c:1335
+msgid "Last scrape at:"
+msgstr "Последен scrape:"
+
+#: ../gtk/details.c:1340 ../gtk/details.c:1362
+msgid "Tracker responded:"
+msgstr "Тракерът отговори:"
+
+#: ../gtk/details.c:1345
+msgid "Next scrape in:"
+msgstr "Следващ scrape след:"
+
+#: ../gtk/details.c:1351
+msgid "Announce"
+msgstr "Съобщаване"
+
+#: ../gtk/details.c:1355
+msgid "Tracker:"
+msgstr "Тракер:"
+
+#: ../gtk/details.c:1357
+msgid "Last announce at:"
+msgstr "Последно съобщаване на:"
+
+#: ../gtk/details.c:1367
+msgid "Next announce in:"
+msgstr "Следващо съобщаване:"
+
+#. how long until the tracker will honor user
+#. * pressing the "ask for more peers" button
+#: ../gtk/details.c:1374
+msgid "Manual announce allowed in:"
+msgstr "Ръчно обявяване позволено след:"
+
+#: ../gtk/details.c:1393
+msgid "In progress"
+msgstr "Обработва се"
+
+#: ../gtk/details.c:1438
+msgid "Now"
+msgstr "Сега"
+
+#. create the dialog
+#: ../gtk/details.c:1489
+#, c-format
+msgid "%s Properties"
+msgstr "Свойства на %s"
+
+#: ../gtk/details.c:1507
+msgid "Activity"
+msgstr "Дейност"
+
+#: ../gtk/details.c:1512 ../gtk/tr-prefs.c:1348
+msgid "Peers"
+msgstr "Пиъри"
+
+#: ../gtk/details.c:1517 ../gtk/tr-window.c:525
+msgid "Tracker"
+msgstr "Тракер"
+
+#: ../gtk/details.c:1521 ../gtk/msgwin.c:193
+msgid "Information"
+msgstr "Информация"
+
+#: ../gtk/details.c:1527 ../gtk/tr-window.c:525
+msgid "Files"
+msgstr "Файлове"
+
+#: ../gtk/details.c:1532 ../gtk/tr-prefs.c:344 ../gtk/tr-prefs.c:512
+msgid "Options"
+msgstr "Предпочитания"
+
+#: ../gtk/dialogs.c:120
+msgid "<big><b>Quit Transmission?</b></big>"
+msgstr "<big><b>Затваряне на Transmission?</b></big>"
+
+#: ../gtk/dialogs.c:133
+msgid "_Don't ask me again"
+msgstr "_Без повторно питане"
+
+#: ../gtk/dialogs.c:235
+msgid "Remove torrent?"
+msgid_plural "Remove torrents?"
+msgstr[0] "Премахване на торент?"
+msgstr[1] "Премахване на торенти?"
+
+#: ../gtk/dialogs.c:241
+msgid "Delete this torrent's downloaded files?"
+msgid_plural "Delete these torrents' downloaded files?"
+msgstr[0] "Изтриване на изтеглените файлове от този торент?"
+msgstr[1] "Изтриване на изтеглените файлове от тези торенти?"
+
+#: ../gtk/dialogs.c:254
+msgid "This torrent has not finished downloading."
+msgid_plural "These torrents have not finished downloading."
+msgstr[0] "Този торент не е завършил изтеглянето."
+msgstr[1] "Тези торенти не са завършили изтеглянето."
+
+#: ../gtk/dialogs.c:260
+msgid "This torrent is connected to peers."
+msgid_plural "These torrents are connected to peers."
+msgstr[0] "Този торент е свързан към пиъри."
+msgstr[1] "Тези торенти са свързани към пиъри."
+
+#: ../gtk/dialogs.c:267
+msgid "One of these torrents is connected to peers."
+msgid_plural "Some of these torrents are connected to peers."
+msgstr[0] "Един от тези торенти е свързан към пиъри."
+msgstr[1] "Някои от тези торенти е свързан към пиъри."
+
+#: ../gtk/dialogs.c:274
+msgid "One of these torrents has not finished downloading."
+msgid_plural "Some of these torrents have not finished downloading."
+msgstr[0] "Един от тези торенти не е завършил изтеглянето."
+msgstr[1] "Някои от тези торенти не са завършили изтеглянето."
+
+#: ../gtk/file-list.c:622
+msgid "High"
+msgstr "Висок"
+
+#: ../gtk/file-list.c:626
+msgid "Normal"
+msgstr "Нормален"
+
+#: ../gtk/file-list.c:630
+msgid "Low"
+msgstr "Нисък"
+
+#: ../gtk/file-list.c:634
+msgid "Mixed"
+msgstr "Смесен"
+
+#: ../gtk/file-list.c:664 ../gtk/file-list.c:814
+msgid "Download"
+msgstr "Изтегляне"
+
+#: ../gtk/file-list.c:665 ../gtk/file-list.c:821
+msgid "Priority"
+msgstr "Приоритет"
+
+#: ../gtk/file-list.c:793
+msgid "File"
+msgstr "Файл"
+
+#: ../gtk/file-list.c:807
+msgid "Progress"
+msgstr "Прогрес"
+
+#: ../gtk/main.c:361
+msgid "Start with all torrents paused"
+msgstr "Стартиране с всички потоци в паузирано състояние"
+
+#: ../gtk/main.c:363
+msgid "Show version number and exit"
+msgstr "Показване на номер на версията при затваряне на програмата"
+
+#: ../gtk/main.c:367
+msgid "Start minimized in system tray"
+msgstr "Стартиране в минимизирано състояние в системния поднос"
+
+#: ../gtk/main.c:370
+msgid "Where to look for configuration files"
+msgstr "Къде да се търсят конфигурационни файлове"
+
+#: ../gtk/main.c:383
+msgid "Transmission"
+msgstr "BitTorrent клиент (Transmission)"
+
+#: ../gtk/main.c:390
+msgid "[torrent files]"
+msgstr "[торент файлове]"
+
+#: ../gtk/main.c:510
+msgid "Beginning to use scheduled bandwidth limits"
+msgstr "Започване на употреба на планирани ограничения на трафик"
+
+#: ../gtk/main.c:524
+msgid "Ending use of scheduled bandwidth limits"
+msgstr "Спиране на употреба на планирани ограничения на трафик"
+
+#: ../gtk/main.c:778
+msgid "<b>Closing Connections</b>"
+msgstr "<b>Затваряне на връзки</b>"
+
+#: ../gtk/main.c:782
+msgid "Sending upload/download totals to tracker..."
+msgstr "Изпращане не сумите по изтегляне и качване към тракера..."
+
+#: ../gtk/main.c:787
+msgid "_Quit Now"
+msgstr "_Затваряне"
+
+#: ../gtk/main.c:946
+msgid "Couldn't add corrupt torrent"
+msgid_plural "Couldn't add corrupt torrents"
+msgstr[0] "Не може да се добави повреден торент"
+msgstr[1] "Не могат да се добавят повредени торенти"
+
+#: ../gtk/main.c:953
+msgid "Couldn't add duplicate torrent"
+msgid_plural "Couldn't add duplicate torrents"
+msgstr[0] "Не може да со добави дублиран торент"
+msgstr[1] "Не могат да се добавят дублирани торенти"
+
+#: ../gtk/main.c:1222
+msgid "A fast and easy BitTorrent client"
+msgstr "Бърз и лесен BitTorrent клиент"
+
+#: ../gtk/main.c:1227
+msgid "Copyright 2005-2009 The Transmission Project"
+msgstr "Авторски права 2005-2009 The Transmission Project"
+
+#. Translators: translate "translator-credits" as
+#. your name
+#. to have it appear in the credits in the "About"
+#. dialog
+#: ../gtk/main.c:1238
+msgid "translator-credits"
+msgstr ""
+"Любомир Маринов\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Emil Pavlov https://launchpad.net/~emil-p-pavlov\n"
+"  Krasimir Chonov https://launchpad.net/~kchonov\n"
+"  Lachezar Dobrev https://launchpad.net/~lachezar\n"
+"  Lubomir Marinov https://launchpad.net/~lubomir-marinov\n"
+"  Sabry https://launchpad.net/~sabryhomeit\n"
+"  Siyan Panayotov https://launchpad.net/~xsisqox\n"
+"  avioli https://launchpad.net/~avioli"
+
+#: ../gtk/makemeta-ui.c:111
+msgid "Torrent created!"
+msgstr "Торентът е създаден!"
+
+#: ../gtk/makemeta-ui.c:116 ../gtk/makemeta-ui.c:132 ../gtk/makemeta-ui.c:146
+#, c-format
+msgid "Torrent creation failed: %s"
+msgstr "Създаването на торента е неуспешно: %s"
+
+#: ../gtk/makemeta-ui.c:117
+msgid "Invalid URL"
+msgstr "Невалиден адрес"
+
+#: ../gtk/makemeta-ui.c:121
+#, c-format
+msgid "Torrent creation cancelled"
+msgstr "Прекратено създаване на поток"
+
+#: ../gtk/makemeta-ui.c:128 ../libtransmission/blocklist.c:78
+#: ../libtransmission/blocklist.c:237 ../libtransmission/utils.c:471
+#, c-format
+msgid "Couldn't read \"%1$s\": %2$s"
+msgstr "\"%1$s\" не може да бъде прочетено: %2$s"
+
+#: ../gtk/makemeta-ui.c:258 ../gtk/makemeta-ui.c:495
+msgid "No source selected"
+msgstr "Не е избран източник"
+
+#. %1$s is the torrent size
+#. %2$'d is its number of files
+#: ../gtk/makemeta-ui.c:272
+#, c-format
+msgid "<i>%1$s; %2$'d File</i>"
+msgid_plural "<i>%1$s; %2$'d Files</i>"
+msgstr[0] "<i>%1$s; %2$'d файл</i>"
+msgstr[1] "<i>%1$s; %2$'d файла</i>"
+
+#: ../gtk/makemeta-ui.c:354
+msgid "Choose Directory"
+msgstr "Избор на директория"
+
+#: ../gtk/makemeta-ui.c:363
+msgid "Choose File"
+msgstr "Избор на файл"
+
+#: ../gtk/makemeta-ui.c:379
+msgid "New Torrent"
+msgstr "Нов торент"
+
+#: ../gtk/makemeta-ui.c:394
+msgid "Source"
+msgstr "Източник"
+
+#: ../gtk/makemeta-ui.c:405
+msgid "<i>No source selected</i>"
+msgstr "<i>Не е избран източник</i>"
+
+#: ../gtk/makemeta-ui.c:415
+msgid "F_older"
+msgstr "П_апка"
+
+#: ../gtk/makemeta-ui.c:420
+msgid "_File"
+msgstr "_Файл"
+
+#: ../gtk/makemeta-ui.c:463
+msgid "<b>E_xtras</b>"
+msgstr "<b>Е_кстри</b>"
+
+#: ../gtk/makemeta-ui.c:471
+msgid "Commen_t:"
+msgstr "Комента_р:"
+
+#: ../gtk/makemeta-ui.c:474
+msgid "_Private torrent"
+msgstr "_Частен торент"
+
+#: ../gtk/msgwin.c:87 ../libtransmission/bencode.c:1433
+#: ../libtransmission/blocklist.c:293
+#, c-format
+msgid "Couldn't save file \"%1$s\": %2$s"
+msgstr "Файлът \"%1$s\" не може да бъде запазен: %2$s"
+
+#: ../gtk/msgwin.c:149
+msgid "Save Log"
+msgstr "Записване в дневник"
+
+#: ../gtk/msgwin.c:192
+msgid "Error"
+msgstr "Грешка"
+
+#: ../gtk/msgwin.c:194
+msgid "Debug"
+msgstr "Откриване на проблеми"
+
+#: ../gtk/msgwin.c:268
+msgid "Time"
+msgstr "Време"
+
+#: ../gtk/msgwin.c:272 ../gtk/tr-window.c:525
+msgid "Name"
+msgstr "Име"
+
+#: ../gtk/msgwin.c:276
+msgid "Message"
+msgstr "Съобщение"
+
+#: ../gtk/msgwin.c:452
+msgid "Message Log"
+msgstr "Дневник със съобщения"
+
+#: ../gtk/msgwin.c:487
+msgid "Level"
+msgstr "Ниво"
+
+#: ../gtk/notify.c:70
+msgid "Torrent Complete"
+msgstr "Торентът е завършен"
+
+#: ../gtk/notify.c:76
+msgid "Open File"
+msgstr "Отваряне на файл"
+
+#: ../gtk/notify.c:81
+msgid "Open Folder"
+msgstr "Отваряне на папка"
+
+#: ../gtk/stats.c:75 ../gtk/stats.c:156
+#, c-format
+msgid "Started %'d time"
+msgid_plural "Started %'d times"
+msgstr[0] "%'d стартиране"
+msgstr[1] "%'d стартирания"
+
+#: ../gtk/stats.c:128
+msgid "Statistics"
+msgstr "Статистики"
+
+#: ../gtk/stats.c:145
+msgid "Current Session"
+msgstr "Текуща сесия"
+
+#: ../gtk/stats.c:153 ../gtk/stats.c:165
+msgid "Duration:"
+msgstr "Продължителност:"
+
+#: ../gtk/stats.c:155
+msgid "Total"
+msgstr "Общо"
+
+#. %1$s is how much we've got,
+#. %2$s is how much we'll have when done,
+#. %3$.2f%% is a percentage of the two
+#: ../gtk/torrent-cell-renderer.c:52
+#, c-format
+msgid "%1$s of %2$s (%3$.2f%%)"
+msgstr "%1$s от %2$s (%3$.2f%%)"
+
+#. %1$s is how much we've got,
+#. %2$s is the torrent's total size,
+#. %3$.2f%% is a percentage of the two,
+#. %4$s is how much we've uploaded,
+#. %5$s is our upload-to-download ratio
+#: ../gtk/torrent-cell-renderer.c:63
+#, c-format
+msgid "%1$s of %2$s (%3$.2f%%), uploaded %4$s (Ratio: %5$s)"
+msgstr "%1$s от %2$s (%3$.2f%%), качени %4$s (Съотношение: %5$s)"
+
+#. %1$s is the torrent's total size,
+#. %2$s is how much we've uploaded,
+#. %3$s is our upload-to-download ratio
+#: ../gtk/torrent-cell-renderer.c:74
+#, c-format
+msgid "%1$s, uploaded %2$s (Ratio: %3$s)"
+msgstr "%1$s, качени %2$s (Съотношение: %3$s)"
+
+#: ../gtk/torrent-cell-renderer.c:86 ../gtk/tr-torrent.c:247
+#, c-format
+msgid "Remaining time unknown"
+msgstr "Оставащото време е неизвестно"
+
+#. time remaining
+#: ../gtk/torrent-cell-renderer.c:92
+#, c-format
+msgid "%s remaining"
+msgstr "остава %s"
+
+#: ../gtk/torrent-cell-renderer.c:120
+#, c-format
+msgid "speed|Down: %1$s, Up: %2$s"
+msgstr "Изтегляне: %1$s, Качване: %2$s"
+
+#. download speed
+#: ../gtk/torrent-cell-renderer.c:123
+#, c-format
+msgid "Down: %s"
+msgstr "Изтегляне: %s"
+
+#. upload speed
+#: ../gtk/torrent-cell-renderer.c:126
+#, c-format
+msgid "Up: %s"
+msgstr "Качване: %s"
+
+#. the torrent isn't uploading or downloading
+#: ../gtk/torrent-cell-renderer.c:129
+msgid "Idle"
+msgstr "Idle"
+
+#: ../gtk/torrent-cell-renderer.c:142
+msgid "Paused"
+msgstr "Паузиран"
+
+#: ../gtk/torrent-cell-renderer.c:146
+msgid "Waiting to verify local data"
+msgstr "Изчакване на проверката на локалните данни"
+
+#: ../gtk/torrent-cell-renderer.c:152 ../gtk/tr-torrent.c:240
+#, c-format
+msgid "Verifying local data (%.1f%% tested)"
+msgstr "Проверяване на локалните данни (%.1f%% проверени)"
+
+#: ../gtk/torrent-cell-renderer.c:163 ../gtk/tr-window.c:747
+#: ../gtk/tr-window.c:775
+#, c-format
+msgid "Ratio: %s"
+msgstr "Коефициент: %s"
+
+#: ../gtk/torrent-cell-renderer.c:205
+#, c-format
+msgid "Downloading from %1$'d of %2$'d connected peer"
+msgid_plural "Downloading from %1$'d of %2$'d connected peers"
+msgstr[0] "Изтегляне от %1$'d с %2$'d свързан пиър"
+msgstr[1] "Изтегляне от %1$'d с %2$'d свързани пиъри"
+
+#: ../gtk/torrent-cell-renderer.c:216 ../gtk/tr-torrent.c:259
+#, c-format
+msgid "Seeding to %1$'d of %2$'d connected peer"
+msgid_plural "Seeding to %1$'d of %2$'d connected peers"
+msgstr[0] "Изпращане на %1$'d с %2$'d свързан пиър"
+msgstr[1] "Изпращане на %1$'d с %2$'d свързани пиъри"
+
+#: ../gtk/tracker-list.c:327
+msgid "Tier"
+msgstr "Редица"
+
+#: ../gtk/tracker-list.c:339
+msgid "Announce URL"
+msgstr "Адрес на съобщаване"
+
+#: ../gtk/transmission.desktop.in.h:1
+msgid "BitTorrent Client"
+msgstr "BitTorrent клиент"
+
+#: ../gtk/transmission.desktop.in.h:2
+msgid "Download and share files over BitTorrent"
+msgstr "Изтегляне и споделяне на файлове чрез BitTorrent"
+
+#: ../gtk/transmission.desktop.in.h:3
+msgid "Transmission BitTorrent Client"
+msgstr "BitTorrent клиент (Transmission)"
+
+#: ../gtk/tr-core.c:1124
+msgid "Transmission Bittorrent Client"
+msgstr "BitTorrent клиент (Transmission)"
+
+#: ../gtk/tr-core.c:1125
+msgid "BitTorrent Activity"
+msgstr "Дейност на BitTorrent"
+
+#: ../gtk/tr-core.c:1133
+msgid "Disallowing desktop hibernation"
+msgstr "Забраняване на хибернация"
+
+#: ../gtk/tr-core.c:1137
+#, c-format
+msgid "Couldn't disable desktop hibernation: %s"
+msgstr "Не може да се забрани хибернация: %s"
+
+#: ../gtk/tr-core.c:1161
+msgid "Allowing desktop hibernation"
+msgstr "Позволяване на хибернация"
+
+#. %1$'d is the number of torrents we're seeding,
+#. %2$'d is the number of torrents we're downloading,
+#. %3$s is our download speed,
+#. %4$s is our upload speed
+#: ../gtk/tr-icon.c:69
+#, c-format
+msgid ""
+"%1$'d Seeding, %2$'d Downloading\n"
+"Down: %3$s, Up: %4$s"
+msgstr ""
+"%2$'d изтегляни, %1$'d качвани\n"
+"Изтегляне: %3$s, Качване: %4$s"
+
+#: ../gtk/tr-prefs.c:300
+msgid "Adding Torrents"
+msgstr "Добавяне на торенти"
+
+#: ../gtk/tr-prefs.c:303
+msgid "Automatically _add torrents from:"
+msgstr "Автоматично _добавяне на торенти от:"
+
+#: ../gtk/tr-prefs.c:320
+msgid "Mo_ve source files to Trash"
+msgstr "_Изхвърляне на изходните файлове в кошчето"
+
+#: ../gtk/tr-prefs.c:346
+msgid "Inhibit desktop _hibernation when torrents are active"
+msgstr "Забраняване на _хиберниране докато има активни торенти"
+
+#: ../gtk/tr-prefs.c:350
+msgid "Show _icon in the desktop Notification Area"
+msgstr "Показване на _икона в областта за уведомяване"
+
+#: ../gtk/tr-prefs.c:354
+msgid "Show desktop _notifications"
+msgstr "Показване на _уведомявания"
+
+#: ../gtk/tr-prefs.c:384
+#, c-format
+msgid "Enable _blocklist (contains %'d rule)"
+msgid_plural "Enable _blocklist (contains %'d rules)"
+msgstr[0] "Разрешаване на _списък за блокиране (съдържа %'d правило)"
+msgstr[1] "Разрешаване на _списък за блокиране (съдържа %'d правила)"
+
+#: ../gtk/tr-prefs.c:434
+msgid "Updating Blocklist"
+msgstr "Обновяване на списък за блокиране"
+
+#: ../gtk/tr-prefs.c:481
+msgid "Blocklist"
+msgstr "Списък за блокиране"
+
+#: ../gtk/tr-prefs.c:487
+msgid "_Update"
+msgstr "_Обновяване"
+
+#: ../gtk/tr-prefs.c:497
+msgid "Enable _automatic updates"
+msgstr "Разрешаване на _автоматично обновяване"
+
+#: ../gtk/tr-prefs.c:507
+msgid "Maximum peers _overall:"
+msgstr "Най-голям брой на постове като _цяло:"
+
+#: ../gtk/tr-prefs.c:509
+msgid "Maximum peers per _torrent:"
+msgstr "Най-голям брой на постове за _поток:"
+
+#: ../gtk/tr-prefs.c:514
+msgid "_Ignore unencrypted peers"
+msgstr "_Незачитане на некриптирани постове"
+
+#: ../gtk/tr-prefs.c:522
+msgid "Use peer e_xchange"
+msgstr "Използване на _размяна на пиър"
+
+#: ../gtk/tr-prefs.c:731
+msgid "Web Interface"
+msgstr "Уеб интерфейс"
+
+#. "enabled" checkbutton
+#: ../gtk/tr-prefs.c:734
+msgid "_Enable web interface"
+msgstr "_Разрешаване на уеб интерфейс"
+
+#: ../gtk/tr-prefs.c:740
+msgid "_Open web interface"
+msgstr ""
+
+#: ../gtk/tr-prefs.c:749 ../gtk/tr-prefs.c:1299
+msgid "Listening _port:"
+msgstr "Подслушване на _порт:"
+
+#. require authentication
+#: ../gtk/tr-prefs.c:753
+msgid "_Require username"
+msgstr "_Изискване на потребителско име"
+
+#. username
+#: ../gtk/tr-prefs.c:761 ../gtk/tr-prefs.c:979
+msgid "_Username:"
+msgstr "_Потребителско име:"
+
+#. password
+#: ../gtk/tr-prefs.c:768 ../gtk/tr-prefs.c:985
+msgid "Pass_word:"
+msgstr "Пар_ола:"
+
+#. require authentication
+#: ../gtk/tr-prefs.c:776
+msgid "Only allow the following IP _addresses to connect:"
+msgstr "Позволяване само на следните IP _адреси да се свързват:"
+
+#: ../gtk/tr-prefs.c:803
+msgid "IP addresses may use wildcards, such as 192.168.*.*"
+msgstr "IP адресите могат да използват специални знаци, като 192.168.*.*"
+
+#: ../gtk/tr-prefs.c:826
+msgid "Addresses:"
+msgstr "Адреси:"
+
+#: ../gtk/tr-prefs.c:942
+msgid "Tracker Proxy"
+msgstr "Прокси на тракер"
+
+#: ../gtk/tr-prefs.c:944
+msgid "Connect to tracker via a pro_xy"
+msgstr "Свързване към тракер чрез пр_окси"
+
+#: ../gtk/tr-prefs.c:949
+msgid "Proxy _server:"
+msgstr "Прокси _сървър:"
+
+#: ../gtk/tr-prefs.c:957
+msgid "Proxy _port:"
+msgstr "Прокси _порт:"
+
+#: ../gtk/tr-prefs.c:960
+msgid "Proxy _type:"
+msgstr "Тип про_кси:"
+
+#: ../gtk/tr-prefs.c:973
+msgid "_Authentication is required"
+msgstr "_Изисква се упълномощаване"
+
+#: ../gtk/tr-prefs.c:1124
+msgid "Scheduled Limits"
+msgstr "Планирани ограничения"
+
+#: ../gtk/tr-prefs.c:1130
+msgid " and "
+msgstr " и "
+
+#: ../gtk/tr-prefs.c:1137
+msgid "_Limit bandwidth between"
+msgstr "_Ограничаване на трафик мужду"
+
+#: ../gtk/tr-prefs.c:1144
+msgid "Limit d_ownload speed (KB/s):"
+msgstr "Ограничаване на скорост за _изтегляне (КБ/с):"
+
+#: ../gtk/tr-prefs.c:1149
+msgid "Limit u_pload speed (KB/s):"
+msgstr "Ограничаване на скорост за _качване (КБ/с):"
+
+#: ../gtk/tr-prefs.c:1200
+#, c-format
+msgid "Port is <b>open</b>"
+msgstr "Портът е <b>отворен</b>"
+
+#: ../gtk/tr-prefs.c:1201
+#, c-format
+msgid "Port is <b>closed</b>"
+msgstr "Портът е <b>затворен</b>"
+
+#: ../gtk/tr-prefs.c:1245
+msgid "<i>Testing port...</i>"
+msgstr "<i>Тестване на порта...</i>"
+
+#: ../gtk/tr-prefs.c:1291
+msgid "Incoming Peers"
+msgstr "Входящи пиъри"
+
+#: ../gtk/tr-prefs.c:1308
+msgid "Use UPnP or NAT-PMP port _forwarding from my router"
+msgstr ""
+"Използване на UPnP или NAT-PMP порт за _пренасочване от маршрутизатор"
+
+#: ../gtk/tr-prefs.c:1330
+msgid "Transmission Preferences"
+msgstr "Настройки"
+
+#: ../gtk/tr-prefs.c:1345
+msgid "Torrents"
+msgstr "Торенти"
+
+#: ../gtk/tr-prefs.c:1351
+msgid "Network"
+msgstr "Мрежа"
+
+#: ../gtk/tr-prefs.c:1354
+msgid "Desktop"
+msgstr "Плот"
+
+#: ../gtk/tr-prefs.c:1357
+msgid "Bandwidth"
+msgstr "Широчина на линията"
+
+#: ../gtk/tr-prefs.c:1360
+msgid "Web"
+msgstr "Уеб"
+
+#: ../gtk/tr-torrent.c:233
+#, c-format
+msgid "Waiting to verify local data (%.1f%% tested)"
+msgstr "Изчакване на проверката на локалните данни (%.1f%% проверени)"
+
+#. %s is # of minutes
+#: ../gtk/tr-torrent.c:253
+#, c-format
+msgid "%1$s remaining"
+msgstr "Остават %1$s"
+
+#: ../gtk/tr-torrent.c:266 ../libtransmission/port-forwarding.c:200
+msgid "Stopped"
+msgstr "Спрян"
+
+#: ../gtk/tr-window.c:155
+msgid "Torrent"
+msgstr "Торент"
+
+#: ../gtk/tr-window.c:253
+msgid "Total Ratio"
+msgstr "Общ коефициент"
+
+#: ../gtk/tr-window.c:254
+msgid "Session Ratio"
+msgstr "Съотношение в сесията"
+
+#: ../gtk/tr-window.c:255
+msgid "Total Transfer"
+msgstr "Общ трансфер"
+
+#: ../gtk/tr-window.c:256
+msgid "Session Transfer"
+msgstr "Трансфер в сесията"
+
+#: ../gtk/tr-window.c:488
+#, c-format
+msgid "Tracker will allow requests in %s"
+msgstr "Тракерът ще разреши запитвания след %s"
+
+#. show all torrents
+#: ../gtk/tr-window.c:514
+msgid "A_ll"
+msgstr "Всички"
+
+#. show only torrents that have connected peers
+#: ../gtk/tr-window.c:516
+msgid "_Active"
+msgstr "_Активни"
+
+#. show only torrents that are trying to download
+#: ../gtk/tr-window.c:518
+msgid "_Downloading"
+msgstr "_Изтегляни"
+
+#. show only torrents that are trying to upload
+#: ../gtk/tr-window.c:520
+msgid "_Seeding"
+msgstr "_Качващи се"
+
+#. show only torrents that are paused
+#: ../gtk/tr-window.c:522
+msgid "_Paused"
+msgstr "_Паузирани"
+
+#: ../gtk/tr-window.c:720
+#, c-format
+msgid "%1$'d of %2$'d Torrent"
+msgid_plural "%1$'d of %2$'d Torrents"
+msgstr[0] "%1$'d от %2$'d поток"
+msgstr[1] "%1$'d от %2$'d потока"
+
+#: ../gtk/tr-window.c:725
+#, c-format
+msgid "%'d Torrent"
+msgid_plural "%'d Torrents"
+msgstr[0] "%'d торент"
+msgstr[1] "%'d торенти"
+
+#: ../gtk/tr-window.c:758 ../gtk/tr-window.c:769
+#, c-format
+msgid "size|Down: %1$s, Up: %2$s"
+msgstr "size|Качени: %1$s, Изтеглени: %2$s"
+
+#: ../gtk/util.c:90
+#, c-format
+msgid "%'u byte"
+msgid_plural "%'u bytes"
+msgstr[0] "%'u байт"
+msgstr[1] "%'u байта"
+
+#: ../gtk/util.c:98
+#, c-format
+msgid "%'.1f KB"
+msgstr "%'.1f KБ"
+
+#: ../gtk/util.c:103
+#, c-format
+msgid "%'.1f MB"
+msgstr "%'.1f MБ"
+
+#: ../gtk/util.c:108
+#, c-format
+msgid "%'.1f GB"
+msgstr "%'.1f ГБ"
+
+#. 0.0 KB to 999.9 KB
+#: ../gtk/util.c:123
+#, c-format
+msgid "%'.1f KB/s"
+msgstr "%'.1f KБ/сек"
+
+#. 0.98 MB to 99.99 MB
+#: ../gtk/util.c:125
+#, c-format
+msgid "%'.2f MB/s"
+msgstr "%'.2f MБ/сек"
+
+#. 100.0 MB to 999.9 MB
+#: ../gtk/util.c:127
+#, c-format
+msgid "%'.1f MB/s"
+msgstr "%'.1f MБ/сек"
+
+#. insane speeds
+#: ../gtk/util.c:129
+#, c-format
+msgid "%'.2f GB/s"
+msgstr "%'.2f ГБ/сек"
+
+#: ../gtk/util.c:150
+#, c-format
+msgid "%'d day"
+msgid_plural "%'d days"
+msgstr[0] "%'d ден"
+msgstr[1] "%'d дни"
+
+#: ../gtk/util.c:152
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d час"
+msgstr[1] "%'d часа"
+
+#: ../gtk/util.c:155
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d минута"
+msgstr[1] "%'d минути"
+
+#: ../gtk/util.c:157
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d секунда"
+msgstr[1] "%'d секунди"
+
+#: ../gtk/util.c:378
+#, c-format
+msgid "The torrent file \"%s\" contains invalid data."
+msgstr "Торент файлът \"%s\" съдържа невалидни данни."
+
+#: ../gtk/util.c:382
+#, c-format
+msgid "The torrent file \"%s\" is already in use."
+msgstr "Торент файлът \"%s\" вече се използва."
+
+#: ../gtk/util.c:386
+#, c-format
+msgid "The torrent file \"%s\" encountered an unknown error."
+msgstr "Торент файлът \"%s\" срещна неизвестна грешка."
+
+#: ../gtk/util.c:398
+msgid "Error opening torrent"
+msgstr "Грешка при отваряне на торент"
+
+#. did caller give us an uninitialized val?
+#: ../libtransmission/bencode.c:986
+msgid "Invalid metadata"
+msgstr "Невалидни метаданни"
+
+#: ../libtransmission/blocklist.c:110
+#, c-format
+msgid "Blocklist \"%s\" contains %'zu entries"
+msgstr "Списъкът за блокиране \"%s\" съдържа %'zu записа"
+
+#: ../libtransmission/blocklist.c:303
+#, c-format
+msgid "Blocklist \"%1$s\" updated with %2$'d entries"
+msgstr "Списъкът за блокиране \"%1$s\" е качен с %2$'d записа"
+
+#. %s is the torrent name
+#: ../libtransmission/fastresume.c:553 ../libtransmission/fastresume.c:566
+msgid "Couldn't read resume file"
+msgstr "Не може да се продължи файла"
+
+#: ../libtransmission/fdlimit.c:217
+#, c-format
+msgid "Couldn't create \"%1$s\": parent folder \"%2$s\" does not exist"
+msgstr ""
+
+#: ../libtransmission/fdlimit.c:240
+#, c-format
+msgid "Preallocated file \"%s\""
+msgstr "Предварително заделяне за файла  \"%s\""
+
+#: ../libtransmission/fdlimit.c:517 ../libtransmission/net.c:391
+#, c-format
+msgid "Couldn't create socket: %s"
+msgstr "Не може да се създаде сокет: %s"
+
+#: ../libtransmission/makemeta.c:60
+#, c-format
+msgid "Torrent Creator is skipping file \"%s\": %s"
+msgstr "Създателят на потоци пропуска файла \"%s\": %s"
+
+#: ../libtransmission/metainfo.c:457
+#, c-format
+msgid "Invalid metadata entry \"%s\""
+msgstr "Невалиден запис от метаданни \"%s\""
+
+#: ../libtransmission/natpmp.c:31
+msgid "Port Forwarding (NAT-PMP)"
+msgstr "Пренасочване на портове (NAT-PMP)"
+
+#: ../libtransmission/natpmp.c:68
+#, c-format
+msgid "%s succeeded (%d)"
+msgstr "%s успя (%d)"
+
+#: ../libtransmission/natpmp.c:136
+#, c-format
+msgid "Found public address \"%s\""
+msgstr "Намерен е публичен адрес \"%s\""
+
+#: ../libtransmission/natpmp.c:171
+#, c-format
+msgid "no longer forwarding port %d"
+msgstr "вече не се пренасочва порт %d"
+
+#: ../libtransmission/natpmp.c:218
+#, c-format
+msgid "Port %d forwarded successfully"
+msgstr "Портът %d е пренасочен успешно"
+
+#: ../libtransmission/net.c:519
+#, c-format
+msgid "Couldn't connect socket %d to %s, port %d (errno %d - %s)"
+msgstr "Не може да се свърже сокет %d с %s, порт %d (грешка номер %d - %s)"
+
+#: ../libtransmission/net.c:572
+#, c-format
+msgid "Couldn't bind port %d on %s: %s"
+msgstr "Не може да се обвърже порт %d на %s: %s"
+
+#: ../libtransmission/port-forwarding.c:32
+msgid "Port Forwarding"
+msgstr "Пренасочване на портове"
+
+#: ../libtransmission/port-forwarding.c:64
+msgid "Starting"
+msgstr "Започване"
+
+#: ../libtransmission/port-forwarding.c:68
+msgid "Forwarded"
+msgstr "Пренасочен"
+
+#: ../libtransmission/port-forwarding.c:72
+msgid "Stopping"
+msgstr "Спиране"
+
+#: ../libtransmission/port-forwarding.c:76
+msgid "Not forwarded"
+msgstr "Не е пренасочен"
+
+#: ../libtransmission/port-forwarding.c:99 ../libtransmission/torrent.c:1322
+#, c-format
+msgid "State changed from \"%1$s\" to \"%2$s\""
+msgstr "Състоянието е променено от \"%1$s\" на \"%2$s\""
+
+#: ../libtransmission/port-forwarding.c:115
+#, c-format
+msgid "Closing port %d on %s"
+msgstr "Затваряне на порт %d на %s"
+
+#: ../libtransmission/port-forwarding.c:152
+#, c-format
+msgid "Opened port %d on %s to listen for incoming peer connections"
+msgstr "Отворен порт %d на %s за подслушване на входяща пиър връзка"
+
+#: ../libtransmission/port-forwarding.c:160
+#, c-format
+msgid ""
+"Couldn't open port %d on %s to listen for incoming peer connections (errno "
+"%d - %s)"
+msgstr ""
+"Не може да се отвори порт %d на %s за подслушване на входящи пиър връзки "
+"(грешка номер %d - %s)"
+
+#. first %s is the application name
+#. second %s is the version number
+#: ../libtransmission/session.c:575
+#, c-format
+msgid "%s %s started"
+msgstr "%s %s е стартирана"
+
+#: ../libtransmission/session.c:997
+#, c-format
+msgid "Loaded %d torrents"
+msgstr "Заредени %d торента"
+
+#: ../libtransmission/torrent.c:202
+#, c-format
+msgid "Got %d peers from tracker"
+msgstr "Взети са %d пиъра от тракет"
+
+#: ../libtransmission/torrent.c:216
+#, c-format
+msgid "Tracker warning: \"%s\""
+msgstr "Предупреждение от тракера: \"%s\""
+
+#: ../libtransmission/torrent.c:223
+#, c-format
+msgid "Tracker error: \"%s\""
+msgstr "Грешка на тракера: \"%s\""
+
+#: ../libtransmission/torrent.c:1265
+msgid "Done"
+msgstr "Приключен"
+
+#: ../libtransmission/torrent.c:1268
+msgid "Complete"
+msgstr "Завършен"
+
+#: ../libtransmission/torrent.c:1271
+msgid "Incomplete"
+msgstr "Незавършен"
+
+#: ../libtransmission/upnp.c:26
+msgid "Port Forwarding (UPnP)"
+msgstr "Пренасочване на портове (UPnP)"
+
+#: ../libtransmission/upnp.c:103
+#, c-format
+msgid "Found Internet Gateway Device \"%s\""
+msgstr "Намерен е Интернет шлюз \"%s\""
+
+#: ../libtransmission/upnp.c:106
+#, c-format
+msgid "Local Address is \"%s\""
+msgstr "Локалният адрес е \"%s\""
+
+#: ../libtransmission/upnp.c:139
+#, c-format
+msgid "Stopping port forwarding through \"%s\", service \"%s\""
+msgstr "Спиране на пренасочването на портове през \"%s\", услуга \"%s\""
+
+#: ../libtransmission/upnp.c:173
+#, c-format
+msgid ""
+"Port forwarding through \"%s\", service \"%s\".  (local address: %s:%d)"
+msgstr ""
+"Пренасочване на портове през \"%s\", услуга \"%s\".  (локален адрес: %s:%d)"
+
+#: ../libtransmission/upnp.c:178
+msgid "Port forwarding successful!"
+msgstr "Успешно пренасочване на потове!"
+
+#: ../libtransmission/utils.c:485
+msgid "Not a regular file"
+msgstr "Файлът не е обикновен"
+
+#: ../libtransmission/utils.c:503
+msgid "Memory allocation failed"
+msgstr "Неуспешно заделяне на памет"
+
+#. Node exists but isn't a folder
+#: ../libtransmission/utils.c:599
+#, c-format
+msgid "File \"%s\" is in the way"
+msgstr "Файлът \"%s\" пречи"
+
+#: ../libtransmission/verify.c:144
+msgid "Verifying torrent"
+msgstr "Проверяване на поток"
+
+#: ../libtransmission/verify.c:183
+msgid "Queued for verification"
+msgstr "Нареден за проверка"
+
+#~ msgid "_Open..."
+#~ msgstr "_Отваряне на..."
+
+#~ msgid "_Details"
+#~ msgstr "_Подробности"
+
+#, c-format
+#~ msgid "Couldn't open \"%s\": %s"
+#~ msgstr "Не може да бъде отворен \"%s\": %s"
+
+#~ msgid "<b>Availability</b>"
+#~ msgstr "<b>Наличност</b>"
+
+#~ msgid "<b>Connected Peers</b>"
+#~ msgstr "<>Свързани постове</>"
+
+#, c-format
+#~ msgid "%1$'d Piece @ %2$s"
+#~ msgid_plural "%1$'d Pieces @ %2$s"
+#~ msgstr[0] "%1$'d парче @ %2$s"
+#~ msgstr[1] "%1$'d парчета @ %2$s"
+
+#, c-format
+#~ msgid "%1$s (%2$s verified)"
+#~ msgstr "%1$s (%2$s проверени)"
+
+#~ msgid "_Stop seeding at ratio:"
+#~ msgstr "_Спиране на сийдване при съотношение:"
+
+#, c-format
+#~ msgid "Details for %1$s (%2$s)"
+#~ msgstr "Подробности за %1$s (%2$s)"
+
+#~ msgid "<b>Really Quit?</b>"
+#~ msgstr "<b>Наистина ли да се излезе?</b>"
+
+#~ msgid "Some of these torrents are incomplete or connected to peers."
+#~ msgstr "Някои от тези потоци са недовършени или свързани с постове."
+
+#~ msgid "This torrent is incomplete or connected to peers."
+#~ msgid_plural "One of these torrents is incomplete or connected to peers."
+#~ msgstr[0] "Този поток е незавършен или свързан с постове."
+#~ msgstr[1] "Един от тези потоци е незавършен или свързан с постове."
+
+#~ msgid "filedetails|File"
+#~ msgstr "filedetails|Файл"
+
+#~ msgid "filedetails|Progress"
+#~ msgstr "filedetails|Прогрес"
+
+#~ msgid "filedetails|Download"
+#~ msgstr "filedetails|Изтегляне"
+
+#~ msgid "filedetails|Priority"
+#~ msgstr "filedetails|Преоритет"
+
+#, c-format
+#~ msgid "IPC parse error: %s"
+#~ msgstr "Грешка при обработка по протокола за взаимодействие: %s"
+
+#, c-format
+#~ msgid "Couldn't set up IPC: %s"
+#~ msgstr "Неуспешно инициализиране на протокола за взаимодействие: %s"
+
+#~ msgid "Ask the running instance to quit"
+#~ msgstr "Питане на изпълненияващото се прибошение да прекрати"
+
+#~ msgid "_Quit Immediately"
+#~ msgstr "_Незабавно излизане"
+
+#~ msgid "Copyright 2005-2008 The Transmission Project"
+#~ msgstr "Copyright 2005-2008 The Transmission Project"
+
+#, c-format
+#~ msgid "No files selected"
+#~ msgstr "Няма избрани файлове"
+
+#, c-format
+#~ msgid "<i>No files selected</i>"
+#~ msgstr "<i>Няма избрани файлове</i>"
+
+#, c-format
+#~ msgid "<i>%1$'d Piece @ %2$s</i>"
+#~ msgid_plural "<i>%1$'d Pieces @ %2$s</i>"
+#~ msgstr[0] "<i>%1$'d парче @ %2$s</i>"
+#~ msgstr[1] "<i>%1$'d парчета @ %2$s</i>"
+
+#~ msgid "Content"
+#~ msgstr "Съдържание"
+
+#~ msgid "_Single File:"
+#~ msgstr "_Самостоятелен файл:"
+
+#~ msgid "_Private to this tracker"
+#~ msgstr "_Частен за този тракер"
+
+#, c-format
+#~ msgid "Couldn't save file \"%s\": %s"
+#~ msgstr "Не може да бъде записан файлът \"%s\": %s"
+
+#~ msgid "Mo_ve source file to Trash"
+#~ msgstr "Изхвърляне на изходния файл в кошчето"
+
+#~ msgid "_Start when opened"
+#~ msgstr "_Стартиране при отваряне"
+
+#~ msgid "Verify Local Data"
+#~ msgstr "Проверка на локалните данни"
+
+#~ msgid "Opening Torrents"
+#~ msgstr "Отваряне на потоци"
+
+#~ msgid "Notification"
+#~ msgstr "Съобщение"
+
+#~ msgid "_Display a message when torrents finish"
+#~ msgstr "_Показване на съобщение при завършване на поток"
+
+#~ msgid "_Forward port from router"
+#~ msgstr "_Препращане на порт от рутер"
+
+#, c-format
+#~ msgid "%1$s remaining (%2$.1f%%)"
+#~ msgstr "%1$s оставащи (%2$.1f%%)"
+
+#, c-format
+#~ msgid "Stopped (%.1f%%)"
+#~ msgstr "Спрян (%.1f%%)"
+
+#~ msgid "Torrent needs to be verified"
+#~ msgstr "Покотът се нуждае от проверка"
+
+#, c-format
+#~ msgid "Loaded %i peers from resume file"
+#~ msgstr "Заредени са %i поста от файл за възстановяване"
+
+#, c-format
+#~ msgid "Couldn't read resume file for \"%s\""
+#~ msgstr "Не може да бъде прочетен файл за възстановяване за \"%s\""
+
+#, c-format
+#~ msgid "Missing metadata entry \"%s\""
+#~ msgstr "Липсващ запис от метаданни \"%s\""
+
+#, c-format
+#~ msgid "Invalid announce URL \"%s\""
+#~ msgstr "Невалиден адрес на обявяване \"%s\""
+
+#~ msgid "Invalid or missing metadata entries \"length\" and \"files\""
+#~ msgstr "Невалидни или липсващи записи от метаданни \"дължина\" и \"файлове\""
+
+#, c-format
+#~ msgid "%s responded \"try again\""
+#~ msgstr "%s отговари с \"повторен опит\""
+
+#, c-format
+#~ msgid "%s failed (%d): %s (%d)"
+#~ msgstr "%s се провали (%d): %s (%d)"
+
+#~ msgid "If your router supports NAT-PMP, please make sure NAT-PMP is enabled!"
+#~ msgstr "Ако рутерът Ви поддържа UPnP, моля включете поддръжката!"
+
+#~ msgid "NAT-PMP port forwarding unsuccessful, trying UPnP next"
+#~ msgstr "Неуспешно пренасочване на портове чрез NAT-PMP, следва опит с UPnP"
+
+#, c-format
+#~ msgid "port %d forwarded successfully"
+#~ msgstr "успешно пренасочване на порт %d"
+
+#, c-format
+#~ msgid "Couldn't bind port %d: %s"
+#~ msgstr "Не може да бъде обвързан порт %d: %s"
+
+#, c-format
+#~ msgid "Got %d peers from peer exchange"
+#~ msgstr "Получени са %d поста при размяна на постове"
+
+#, c-format
+#~ msgid "Piece %lu, which was just downloaded, failed its checksum test: %s"
+#~ msgstr ""
+#~ "Парче %lu, което току що бе изтеглено, се провали при тестване на "
+#~ "контролната сума: %s"
+
+#, c-format
+#~ msgid "State changed from \"%s\" to \"%s\""
+#~ msgstr "Състоянието е сменено от \"%s\" на \"%s\""
+
+#~ msgid "Port forwarding failed."
+#~ msgstr "Пренасочването на портове се провали."
+
+#, c-format
+#~ msgid "Closing port %d"
+#~ msgstr "Затваряне на порт %d"
+
+#, c-format
+#~ msgid "Closing torrent; %d left"
+#~ msgstr "Затваряне на поток: %d оставащи"
+
+#, c-format
+#~ msgid "upnpDiscover failed (errno %d - %s)"
+#~ msgstr "upnpDiscover не успя (грешка %d - %s)"
+
+#~ msgid "If your router supports UPnP, please make sure UPnP is enabled!"
+#~ msgstr "Ако рутерът Ви поддържа UPnP, моля включете поддръжката!"
+
+#, c-format
+#~ msgid "Port forwarding failed with error %d (errno %d - %s)"
+#~ msgstr "Пренасочването на портове не успя и върна грешка %d (грешка %d - %s)"
+
+#, c-format
+#~ msgid "Couldn't read file \"%s\": %s"
+#~ msgstr "Не може да бъде прочетен файлът \"%s\": %s"
+
+#~ msgid "Unspecified error"
+#~ msgstr "Необозначена грешка"
+
+#~ msgid "Assert error"
+#~ msgstr "Грешка при проверяване изпълнението на условие"
+
+#~ msgid "Destination folder doesn't exist"
+#~ msgstr "Не съществува папката на изтегляне"
+
+#~ msgid "A torrent with this name and destination folder already exists."
+#~ msgstr "Поток с това име и папка на изтегляне вече съществува."
+
+#~ msgid "Checksum failed"
+#~ msgstr "Неуспех при проверка на контролна сума"
+
+#~ msgid "Unspecified I/O error"
+#~ msgstr "Необозначена грешка при вход или изход"
+
+#~ msgid "Peer sent a bad message"
+#~ msgstr "Изпратено невалидно съобщение от пост"
+
+#~ msgid "Unknown error"
+#~ msgstr "Неизвестна грешка"
+
+#~ msgid ""
+#~ "Failed to open the file %s for writing:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Файлът %s не може да бъде отворен за писане:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Failed to lock the file %s:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Файлът %s не може да бъде заключен:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Failed to create the directory %s:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Папката %s не може да бъде създадена:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Failed to open the file %s for reading:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Файлът %s не може да бъде отворен за четене:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Error while reading from the file %s:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Грешка при четене от файла %s:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Error while writing to the file %s:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Грешка при писане във файла %s:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Failed to rename the file %s to %s:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Файлът %s не може да бъде преименуван на %s:\n"
+#~ "%s"
+
+#~ msgid "Use alternate _download directory"
+#~ msgstr "Използв_ане на друга папка на изтегляне"
+
+#~ msgid "Choose a download directory"
+#~ msgstr "Избиране на папка на изтегляне"
+
+#~ msgid "General"
+#~ msgstr "Основни"
+
+#~ msgid "Piece Size:"
+#~ msgstr "Размер на част:"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "Are you sure you want to quit %s?"
+#~ msgstr "Сигурни ли сте, че искате да прекратите %s?"
+
+#~ msgid "  fnord    fnord  "
+#~ msgstr "  размер    размер  "
+
+#~ msgid "Add a new torrent"
+#~ msgstr "Добавяне на нов поток"
+
+#~ msgid "Start a torrent that is not running"
+#~ msgstr "Пускане на поток"
+
+#~ msgid "Stop a torrent that is running"
+#~ msgstr "Спиране на пуснат поток"
+
+#~ msgid "Show additional information about a torrent"
+#~ msgstr "Показване на допълнителна информация за поток"
+
+#~ msgid "Open debug window"
+#~ msgstr "Отваряне на debug прозорец"
+
+#~ msgid "Customize application behavior"
+#~ msgstr "Промяна на настройките на приложението"
+
+#~ msgid "Exit the program"
+#~ msgstr "Излизане от програмата"
+
+#~ msgid ""
+#~ "usage: %s [-hpq] [files...]\n"
+#~ "\n"
+#~ "Transmission %s (r%d) http://transmission.m0k.org/\n"
+#~ "A free, lightweight BitTorrent client with a simple, intuitive interface\n"
+#~ "\n"
+#~ "  -h --help    display this message and exit\n"
+#~ "  -p --paused  start with all torrents paused\n"
+#~ "  -q --quit    request that the running %s instance quit\n"
+#~ "\n"
+#~ "Only one instance of %s may run at one time. Multiple\n"
+#~ "torrent files may be loaded at startup by adding them to the command\n"
+#~ "line. If %s is already running, those torrents will be\n"
+#~ "opened in the running instance.\n"
+#~ msgstr ""
+#~ "употреба: %s [-hpq] [файлове...]\n"
+#~ "\n"
+#~ "Transmission %s (r%d) http://transmission.m0k.org/\n"
+#~ "Свободен, лек BitTorrent клиент с прост, интуитивен интерфейс\n"
+#~ "\n"
+#~ "  -h --help    показване на това съобщение и изход\n"
+#~ "  -p --paused  стартиране с всички потоци настроени на пауза\n"
+#~ "  -q --quit    заявка за прекратяване на изпълняваща се инстанция %s\n"
+#~ "\n"
+#~ "Само една инстанция на %s може да се изпълнява в даден момент. Множество\n"
+#~ "файлове с описания на потоци могат да бъдат заредени при стартиране чрез "
+#~ "добавянето им на командния\n"
+#~ "ред. Ако %s вече се изпълнява, тези потоци ще бъдат\n"
+#~ "отворени в изпълняващата се инстанция.\n"
+
+#~ msgid "Info"
+#~ msgstr "Информация"
+
+#~ msgid "???"
+#~ msgstr "???"
+
+#~ msgid "Restrict the download rate"
+#~ msgstr "Ограничаване на скорост на изтегляне"
+
+#~ msgid "Maximum _download speed:"
+#~ msgstr "М_аксимална скорост на изтегляне:"
+
+#~ msgid "Speed in KiB/sec for restricted download rate"
+#~ msgstr "Скорост в KiB/сек за ограничена скорост на изтегляне"
+
+#~ msgid "Restrict the upload rate"
+#~ msgstr "Ограничаване на скорост на качване"
+
+#~ msgid "Speed in KiB/sec for restricted upload rate"
+#~ msgstr "Скорост в KiB/сек за ограничена скорост на качване"
+
+#~ msgid ""
+#~ "When adding a torrent, always prompt for a directory to download data files "
+#~ "into"
+#~ msgstr ""
+#~ "Питане за папка на изтегляне на файлове с данни при добавяне на поток"
+
+#~ msgid "Download di_rectory:"
+#~ msgstr "Папка на _изтегляне:"
+
+#~ msgid "Au_tomatic port mapping via NAT-PMP or UPnP"
+#~ msgstr "Ав_томатично съпоставяне на портове чрез NAT-PMP или UPnP"
+
+#~ msgid "Attempt to bypass NAT or firewall to allow incoming peer connections"
+#~ msgstr ""
+#~ "Опит за заобикаляне на NAT или защитна стена с цел позволяване на входящи "
+#~ "връзки от постове"
+
+#~ msgid ""
+#~ "Perform Azureus or µTorrent compatible peer exchange with any peers which "
+#~ "support it"
+#~ msgstr ""
+#~ "Осъществяване на размяна на постове, съвместима с Azureus или µTorrent, с "
+#~ "всички постове, които я поддържат"
+
+#~ msgid "Display an _icon in the system tray"
+#~ msgstr "Показване на _икона в системния поднос"
+
+#~ msgid "Use a system tray / dock / notification area icon"
+#~ msgstr "Използване на икона в системния поднос, dock или област за съобщения"
+
+#~ msgid "Confirm _quit"
+#~ msgstr "Потвърждение на _излизане"
+
+#~ msgid "Prompt for confirmation when quitting"
+#~ msgstr "Питане за потвърждение при излизане"
+
+#~ msgid "For torrents added _normally:"
+#~ msgstr "За _добавяне на потоци по подразбиране:"
+
+#~ msgid "Torrent files added via the toolbar, popup menu, and drag-and-drop"
+#~ msgstr ""
+#~ "Файлове с описания на потоци, добавени чрез лентата с инструменти, poppup "
+#~ "меню и влачене и пускане"
+
+#~ msgid ""
+#~ "For torrents added e_xternally\n"
+#~ "(via the command-line):"
+#~ msgstr ""
+#~ "За по_тоци, добавени отвън\n"
+#~ "(чрез командния ред):"
+
+#~ msgid "Use the torrent file where it is"
+#~ msgstr "Използване на файла с описание на потока, където се намира"
+
+#~ msgid "Keep a copy of the torrent file"
+#~ msgstr "Запазване на копие на файла с описание на потока"
+
+#~ msgid "Keep a copy and remove the original"
+#~ msgstr "Запазване на копие и премахване на оригинала"
+
+#~ msgid "     Total DL: %s/s     Total UL: %s/s"
+#~ msgstr "     Общо изтегляне: %s/s     Общо качване: %s/s"
+
+#~ msgid "Checking existing files (%.1f%%)"
+#~ msgstr "Проверка на съществуващи файлове (%.1f%%)"
+
+#~ msgid ""
+#~ "DL: %s/s\n"
+#~ "UL: %s/s"
+#~ msgstr ""
+#~ "Изтегляне: %s/s\n"
+#~ "Качване: %s/s"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "KiB"
+#~ msgstr "KiB"
+
+#~ msgid "MiB"
+#~ msgstr "MiB"
+
+#~ msgid "GiB"
+#~ msgstr "GiB"
+
+#~ msgid "TiB"
+#~ msgstr "TiB"
+
+#~ msgid "PiB"
+#~ msgstr "PiB"
+
+#~ msgid "EiB"
+#~ msgstr "EiB"
+
+#~ msgid "%i %s"
+#~ msgstr "%i %s"
+
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "week"
+#~ msgid_plural "weeks"
+#~ msgstr[0] "седмица"
+#~ msgstr[1] "седмици"
+
+#~ msgid "N/A"
+#~ msgstr "Неизвестен"
+
+#~ msgid "∞"
+#~ msgstr "∞"
