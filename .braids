@@ -1,0 +1,7 @@
+--- 
+third-party/libevent: 
+  squashed: true
+  url: https://levent.svn.sourceforge.net/svnroot/levent/branches/patches-1.4/libevent
+  type: svn
+  revision: 1126
+  remote: braid/third-party/libevent
