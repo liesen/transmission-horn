@@ -70,7 +70,7 @@ void tr_torrentSetGrowlCompletionCallback(tr_torrent * torrent,
     }
 
     g->hostname = strdup(hostname);
-    g->port = port > 0 ? port : GROWL_DEFAULT_PORT;
+    g->port = port >= 0 ? port : GROWL_DEFAULT_PORT;
     g->password = strdup(password);
 
     tr_dbg("Storing Growl callback to %s:%d\n", g->hostname, g->port);
