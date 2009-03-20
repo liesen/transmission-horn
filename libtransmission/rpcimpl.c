@@ -663,6 +663,8 @@ torrentSet( tr_session               * session,
             tr_torrentSetRatioLimit( tor, d );
         if( tr_bencDictFindInt( args_in, "ratio-limit-mode", &tmp ) )
             tr_torrentSetRatioMode( tor, tmp );
+        if( tr_bencDictFindStr( args_in, "growl", &str ) )
+            tr_torrentSetGrowlCompletionCallback( tor, str, 0, (char *) NULL );
         notify( session, TR_RPC_TORRENT_CHANGED, tor );
     }
 

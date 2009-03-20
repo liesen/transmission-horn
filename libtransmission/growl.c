@@ -13,9 +13,9 @@ struct growl_endpoint_data {
     char * password;
 };
 
-void growl_completenes_callback(tr_torrent * tor,
-                                tr_completeness completeness,
-                                void * user_data) {
+void growl_completeness_callback(tr_torrent * tor,
+                                 tr_completenesss completenesss,
+                                 void * user_data) {
     struct growl_endpoint_data * g = (struct growl_endpoint_data *) user_data;
     GrowlNotification notification;
 
@@ -60,10 +60,10 @@ void tr_torrentSetGrowlCompletionCallback(tr_torrent * tor,
     }
 
     g->hostname = strdup(hostname);
-    g->port = port;
+    g->port = GROWL_DEFAULT_PORT; // port;
     g->password = strdup(password);
 
     tr_torrentSetCompletenessCallback(tor,
-                                      &growl_completenes_callback,
+                                      &growl_completeness_callback,
                                       (void *) g);
 }    

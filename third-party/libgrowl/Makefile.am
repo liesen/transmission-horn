@@ -1,6 +1,6 @@
-noinst_LIBRARIES = libgrowl.a
+noinst_LTLIBRARIES = libgrowl.la
 
-libgrowl_a_SOURCES = \
+libgrowl_la_SOURCES = \
 	md5.c \
 	libgrowl.c
 

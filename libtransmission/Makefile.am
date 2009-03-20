@@ -127,7 +127,7 @@ apps_ldadd = \
     $(top_builddir)/third-party/miniupnp/libminiupnp.a \
     $(top_builddir)/third-party/libnatpmp/libnatpmp.a \
     $(top_builddir)/third-party/libevent/libevent.la \
-    $(top_builddir)/third-party/libgrowl/libgrowl.a \
+    $(top_builddir)/third-party/libgrowl/libgrowl.la \
     $(INTLLIBS) \
     $(LIBCURL_LIBS) \
     $(OPENSSL_LIBS) \
