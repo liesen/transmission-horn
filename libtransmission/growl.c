@@ -5,9 +5,11 @@
 #include <libgrowl.h>
 
 #include "transmission.h"
+#include "session.h" // TR_NAME
 #include "growl.h"
 #include "utils.h"
 
+#define TR_GROWL_COMPLETED_NOTIFICATION "Download Completed"
 #define GROWL_PASSWORD "password"
 
 // Holds data needed to talk to Growl at the receiving end
@@ -20,30 +22,30 @@ struct growl_endpoint_data {
 void growl_completeness_callback(tr_torrent * torrent,
                                  tr_completeness completeness,
                                  void * user_data) {
-    tr_dbg("Growl completess callback\n");
+    tr_dbg("Growl completess callback");
     struct growl_endpoint_data * g = (struct growl_endpoint_data *) user_data;
     GrowlNotification notification;
 
     notification.ver = 1;
     notification.type = GROWL_TYPE_NOTIFICATION;
-    notification.notification = "Download Completed";
+    notification.notification = TR_GROWL_COMPLETED_NOTIFICATION; 
     notification.title = strdup(tr_torrentInfo(torrent)->name);
     notification.descr = "";
-    notification.app_name = "Transmission";
+    notification.app_name = TR_NAME;
 
-    tr_dbg("Creating notification packet\n");
+    tr_dbg("Creating notification packet");
     size_t packet_size;
     unsigned char * packet_buf = growl_create_notification_packet(
             &notification,
-            GROWL_PASSWORD,
+            g->password == NULL ? "" : GROWL_PASSWORD,
             &packet_size);
 
     if (packet_buf == NULL) {
-        tr_dbg("Error creating notification packet\n");
+        tr_inf("Error creating notification packet");
     } else { 
         if (growl_send_packet(packet_buf, packet_size, g->hostname, g->port) \
                 < 0) {
-            tr_dbg("Error sending notification packet\n");
+            tr_inf("Error sending notification packet");
         }
 
         free(packet_buf);
@@ -58,22 +60,18 @@ void tr_torrentSetGrowlCompletionCallback(tr_torrent * torrent,
                                           char * hostname,
                                           short port,
                                           char * password) {
-    tr_dbg("Attaching Growl completion callback\n");
-
-    tr_dbg("Allocating end point data\n");
+    tr_dbg("Attaching Growl completion callback");
     struct growl_endpoint_data * g = (struct growl_endpoint_data *)
               malloc(sizeof(struct growl_endpoint_data));
 
     if (g == NULL) {
-        tr_dbg("Failed to allocate--aborting\n");
+        tr_dbg("Failed to allocate end point data--aborting");
         return;
     }
 
     g->hostname = strdup(hostname);
-    g->port = port >= 0 ? port : GROWL_DEFAULT_PORT;
-    g->password = strdup(password);
-
-    tr_dbg("Storing Growl callback to %s:%d\n", g->hostname, g->port);
+    g->port = port > 0 ? port : GROWL_DEFAULT_PORT;
+    g->password = password == NULL ? NULL : strdup(password);
     tr_torrentSetCompletenessCallback(torrent,
                                       &growl_completeness_callback,
                                       (void *) g);
