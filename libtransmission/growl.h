@@ -7,9 +7,9 @@
 
 #include "transmission.h"
 
-void tr_torrentSetGrowlCompletionCallback(tr_torrent * tor,
+void tr_torrentSetGrowlCompletionCallback(tr_torrent * torrent,
                                           char * hostname,
-                                          unsigned short port,
+                                          short port,
                                           char * password);
 
 #endif
