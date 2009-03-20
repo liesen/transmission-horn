@@ -2,14 +2,14 @@
 #error only libtransmission should #include this header.
 #endif
 
-#ifndef JSON_PARSER_H
-#define JSON_PARSER_H
+#ifndef TR_GROWL_H
+#define TR_GROWL_H
 
 #include "transmission.h"
 
 void tr_torrentSetGrowlCompletionCallback(tr_torrent * tor,
-                                          const char * hostname,
+                                          char * hostname,
                                           unsigned short port,
-                                          const char * password);
+                                          char * password);
 
 #endif
