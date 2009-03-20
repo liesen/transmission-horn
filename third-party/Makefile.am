@@ -1,5 +1,6 @@
 SUBDIRS = \
     libevent \
+    libgrowl \
     libnatpmp \
     miniupnp
 

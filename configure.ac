@@ -353,6 +353,7 @@ AC_CONFIG_FILES([Makefile
                  third-party/Makefile
                  third-party/miniupnp/Makefile
                  third-party/libnatpmp/Makefile
+                 third-party/libgrowl/Makefile
                  macosx/Makefile
                  gtk/Makefile
                  gtk/icons/Makefile
