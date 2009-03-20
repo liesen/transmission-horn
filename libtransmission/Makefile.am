@@ -102,7 +102,8 @@ noinst_HEADERS = \
     utils.h \
     verify.h \
     web.h \
-    webseed.h
+    webseed.h \
+    growl.h
 
 TESTS = \
     blocklist-test \
