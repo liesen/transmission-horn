@@ -22,7 +22,13 @@ struct growl_endpoint_data {
 void growl_completeness_callback(tr_torrent * torrent,
                                  tr_completeness completeness,
                                  void * user_data) {
-    tr_dbg("Growl completess callback");
+    tr_inf("Growl completess callback");
+
+    if (completeness != TR_SEED) {
+        tr_inf("Torrent not complete yet");
+        return;
+    }
+
     struct growl_endpoint_data * g = (struct growl_endpoint_data *) user_data;
     GrowlNotification notification;
 
@@ -33,11 +39,11 @@ void growl_completeness_callback(tr_torrent * torrent,
     notification.descr = "";
     notification.app_name = TR_NAME;
 
-    tr_dbg("Creating notification packet");
+    tr_inf("Creating notification packet");
     size_t packet_size;
     unsigned char * packet_buf = growl_create_notification_packet(
             &notification,
-            g->password == NULL ? "" : GROWL_PASSWORD,
+            g->password == NULL ? GROWL_PASSWORD : g->password,
             &packet_size);
 
     if (packet_buf == NULL) {
@@ -48,6 +54,8 @@ void growl_completeness_callback(tr_torrent * torrent,
             tr_inf("Error sending notification packet");
         }
 
+        tr_inf("Sent notification packet to %s:%d: %s", g->hostname, g->port,
+                notification.title);
         free(packet_buf);
     } 
     
@@ -60,19 +68,21 @@ void tr_torrentSetGrowlCompletionCallback(tr_torrent * torrent,
                                           char * hostname,
                                           short port,
                                           char * password) {
-    tr_dbg("Attaching Growl completion callback");
+    tr_inf("Attaching Growl completion callback");
     struct growl_endpoint_data * g = (struct growl_endpoint_data *)
               malloc(sizeof(struct growl_endpoint_data));
 
     if (g == NULL) {
-        tr_dbg("Failed to allocate end point data--aborting");
+        tr_inf("Failed to allocate end point data--aborting");
         return;
     }
 
     g->hostname = strdup(hostname);
     g->port = port > 0 ? port : GROWL_DEFAULT_PORT;
     g->password = password == NULL ? NULL : strdup(password);
-    tr_torrentSetCompletenessCallback(torrent,
+    /* tr_torrentSetCompletenessCallback(torrent,
                                       &growl_completeness_callback,
                                       (void *) g);
+    */
+    growl_completeness_callback(torrent, TR_SEED, (void *) g);
 }    
