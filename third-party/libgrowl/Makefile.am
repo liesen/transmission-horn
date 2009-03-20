@@ -1,8 +1,9 @@
-SUBDIRS = lib
+noinst_LIBRARIES = libgrowl.a
 
-extra_DIST = \
-	autogen.sh \
-	README
+libgrowl_a_SOURCES = \
+	md5.c \
+	libgrowl.c
 
-examples:
-# TODO 
+noinst_HEADERS = \
+	md5.h \
+	libgrowl.h
