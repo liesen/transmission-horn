@@ -27,6 +27,7 @@
 #include "completion.h"
 #include "utils.h"
 #include "web.h"
+#include "growl.h"
 
 #define TR_N_ELEMENTS( ary ) ( sizeof( ary ) / sizeof( *ary ) )
 
@@ -632,6 +633,7 @@ torrentSet( tr_session               * session,
         double       d;
         tr_benc *    files;
         tr_torrent * tor = torrents[i];
+        char *       str;
 
         if( tr_bencDictFindList( args_in, "files-unwanted", &files ) )
             setFileDLs( tor, FALSE, files );

@@ -1,6 +1,6 @@
 #include "transmission.h"
 
-void
-tr_torrentSetGrowlCompletionCallback(tr_torrent * tor,
-                                     tr_completeness completeness,
-                                     void * user_data);
+void tr_torrentSetGrowlCompletionCallback(tr_torrent * tor,
+                                          const char * hostname,
+                                          unsigned short port,
+                                          const char * password);

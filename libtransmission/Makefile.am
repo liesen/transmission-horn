@@ -56,7 +56,8 @@ libtransmission_a_SOURCES = \
     verify.c \
     web.c \
     webseed.c \
-    wildmat.c
+    wildmat.c \
+    growl.c
 
 noinst_HEADERS = \
     bandwidth.h \

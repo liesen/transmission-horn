@@ -12,13 +12,17 @@ struct growl_endpoint_data {
 void growl_completenes_callback(tr_torrent * tor,
                                 tr_completeness completeness,
                                 void * user_data) {
-    free(user_data);
+    struct growl_endpoint_data * g = (struct growl_endpoint_data *) user_data;
+    
+    free(g->hostname);
+    free(g->password);
+    free(g);
 }
 
 void tr_torrentSetGrowlCompletionCallback(tr_torrent * tor,
-                                          char * hostname,
+                                          const char * hostname,
                                           unsigned short port,
-                                          char * password) {
+                                          const char * password) {
     struct growl_endpoint_data * g = (struct growl_endpoint_data *)
               malloc(sizeof(struct growl_endpoint_data));
 
