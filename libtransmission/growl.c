@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 #include <libgrowl.h>
 
 #include "transmission.h"
@@ -13,6 +17,31 @@ void growl_completenes_callback(tr_torrent * tor,
                                 tr_completeness completeness,
                                 void * user_data) {
     struct growl_endpoint_data * g = (struct growl_endpoint_data *) user_data;
+    GrowlNotification notification;
+
+    notification.ver = 1;
+    notification.type = GROWL_TYPE_NOTIFICATION;
+    notification.notification = "Download Completed";
+    notification.title = strdup(tr_torrentInfo(tor)->name);
+    notification.descr = "";
+    notification.app_name = "Transmission";
+
+    size_t packet_size;
+    unsigned char * packet_buf = growl_create_notification_packet(
+            &notification,
+            "password",
+            &packet_size);
+
+    if (packet_buf == NULL) {
+        fprintf(stderr, "Error creating notification packet\n");
+    } else { 
+        if (growl_send_packet(packet_buf, packet_size, g->hostname, g->port) \
+                < 0) {
+            fprintf(stderr, "Error sending notification packet\n");
+        }
+
+        free(packet_buf);
+    } 
     
     free(g->hostname);
     free(g->password);
