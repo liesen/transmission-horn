@@ -9,7 +9,7 @@
 #include "growl.h"
 #include "utils.h"
 
-#define TR_GROWL_COMPLETED_NOTIFICATION "Download Completed"
+#define TR_GROWL_COMPLETED_NOTIFICATION "Download Complete"
 #define GROWL_PASSWORD "password"
 
 // Holds data needed to talk to Growl at the receiving end
@@ -26,7 +26,7 @@ void growl_completeness_callback(tr_torrent * torrent,
 
     if (completeness != TR_SEED) {
         tr_inf("Torrent not complete yet");
-        return;
+        // return;
     }
 
     struct growl_endpoint_data * g = (struct growl_endpoint_data *) user_data;
