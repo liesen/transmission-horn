@@ -1,4 +1,5 @@
-AM_CPPFLAGS = -I$(top_srcdir) $(LIBEVENT_CPPFLAGS)
+AM_CPPFLAGS = \
+    -I$(top_srcdir) $(LIBEVENT_CPPFLAGS)
 
 AM_CFLAGS = \
     $(OPENSSL_CFLAGS) \
@@ -18,6 +19,7 @@ transmissioncli_SOURCES = cli.c
 transmissioncli_LDADD = \
     $(top_builddir)/libtransmission/libtransmission.a \
     $(top_builddir)/third-party/libevent/libevent.la \
+    $(top_builddir)/third-party/libgrowl/libgrowl.la \
     $(top_builddir)/third-party/libnatpmp/libnatpmp.a \
     $(top_builddir)/third-party/miniupnp/libminiupnp.a \
     $(INTLLIBS) \
