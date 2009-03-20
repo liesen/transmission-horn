@@ -1,5 +1,6 @@
 AM_CPPFLAGS = \
 	-I. -I$(top_srcdir) -I$(top_srcdir)/third-party/ \
+        -I$(top_srcdir)/third-party/libgrowl/lib/ \
 	-D__TRANSMISSION__ $(LIBEVENT_CPPFLAGS) \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\"
 
@@ -124,6 +125,7 @@ apps_ldadd = \
     $(top_builddir)/third-party/miniupnp/libminiupnp.a \
     $(top_builddir)/third-party/libnatpmp/libnatpmp.a \
     $(top_builddir)/third-party/libevent/libevent.la \
+    $(top_builddir)/third-party/libgrowl/lib/libgrowl.a \
     $(INTLLIBS) \
     $(LIBCURL_LIBS) \
     $(OPENSSL_LIBS) \
