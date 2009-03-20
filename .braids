@@ -1,4 +1,11 @@
 --- 
+third-party/libgrowl: 
+  squashed: true
+  url: git@github.com:liesen/libgrowl.git
+  branch: master
+  type: git
+  revision: 79ca2c6085ea4e33bfa8a5aa26b1a8b2c46312d7
+  remote: braid/third-party/libgrowl
 third-party/libevent: 
   squashed: true
   url: https://levent.svn.sourceforge.net/svnroot/levent/branches/patches-1.4/libevent
