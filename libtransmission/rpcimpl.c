@@ -14,6 +14,7 @@
 #include <ctype.h> /* isdigit */
 #include <stdlib.h> /* strtol */
 #include <string.h> /* strcmp */
+#include <limits.h> /* USHRT_MAX */
 
 #include <event.h> /* evbuffer */
 
@@ -633,7 +634,7 @@ torrentSet( tr_session               * session,
         double       d;
         tr_benc *    files;
         tr_torrent * tor = torrents[i];
-        char *       str;
+        const char * str, str2;
 
         if( tr_bencDictFindList( args_in, "files-unwanted", &files ) )
             setFileDLs( tor, FALSE, files );
@@ -663,10 +664,30 @@ torrentSet( tr_session               * session,
             tr_torrentSetRatioLimit( tor, d );
         if( tr_bencDictFindInt( args_in, "ratio-limit-mode", &tmp ) )
             tr_torrentSetRatioMode( tor, tmp );
-        if( tr_bencDictFindStr( args_in, "growl", &str ) ) {
-            tr_inf("Setting Growl completion callback on %s to %s", tr_torrentInfo(tor)->name, str);
-            tr_torrentSetGrowlCompletionCallback( tor, str, 0, (char *) NULL );
+
+        // Check for Growl callback arguments
+        if (tr_bencDictFindStr(args_in, "growl-host", &str)) {
+            if (!tr_bencDictFindInt(args_in, "growl-port", &tmp)) {
+                tmp = 0;
+            }
+
+            if (tmp < USHRT_MAX) {
+                if (tr_bencDictFindStr(args_in, "growl-password", &str2)) {
+                    tr_torrentSetGrowlCompletionCallback(
+                            tor,
+                            str,
+                            (unsigned short) tmp,
+                            str2);
+                } else {
+                    tr_torrentSetGrowlCompletionCallback(
+                            tor,
+                            str,
+                            (unsigned short) tmp,
+                            NULL);
+                }
+            }
         }
+
         notify( session, TR_RPC_TORRENT_CHANGED, tor );
     }
 

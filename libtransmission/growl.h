@@ -8,8 +8,8 @@
 #include "transmission.h"
 
 void tr_torrentSetGrowlCompletionCallback(tr_torrent * torrent,
-                                          char * hostname,
-                                          short port,
-                                          char * password);
+                                          const char * hostname,
+                                          unsigned short port,
+                                          const char * password);
 
 #endif
